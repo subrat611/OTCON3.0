@@ -1,0 +1,37 @@
+.timer-wrapper {
+  margin-top: 1.5rem;
+  background: hsla(186, 33%, 94%, 1);
+  background: linear-gradient(
+    45deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  .timer-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .countdown {
+    display: flex;
+    align-items: center;
+
+    .timer {
+      font-size: 1.2rem;
+      text-align: center;
+      margin: 1.5rem 1rem;
+    }
+  }
+}

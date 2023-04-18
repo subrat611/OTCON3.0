@@ -1,3 +1,4 @@
+import CountDownTimer from "../CountDownTimer";
 import "./hero.scss";
 
 export default function HeroSection() {
@@ -17,6 +18,7 @@ export default function HeroSection() {
           Venue: O.P. Jindal University, Raigarh, Chhattisgarh, India.
         </p>
         <p className="hero-mode-badge">Hybrid Mode</p>
+        <CountDownTimer />
       </div>
     </div>
   );
