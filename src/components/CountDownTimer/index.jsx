@@ -7,28 +7,28 @@ export default function CountDownTimer() {
       <div className="countdown">
         <div className="timer">
           <h3>0</h3>
-          <p>days</p>
+          <p>Days</p>
         </div>
         <div>
           <h2>:</h2>
         </div>
         <div className="timer">
           <h3>0</h3>
-          <p>hours</p>
+          <p>Hours</p>
         </div>
         <div>
           <h2>:</h2>
         </div>
         <div className="timer">
           <h3>0</h3>
-          <p>mins</p>
+          <p>Mins</p>
         </div>
         <div>
           <h2>:</h2>
         </div>
         <div className="timer">
           <h3>0</h3>
-          <p>sec</p>
+          <p>Sec</p>
         </div>
       </div>
     </div>
