@@ -13,6 +13,10 @@ html {
   box-sizing: inherit;
 }
 
+*::selection {
+  background-color: rgba(146, 179, 252, 0.397);
+}
+
 a {
   text-decoration: none;
   color: #f6f4f2;

@@ -1,0 +1,172 @@
+.hero-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #1b1b1b;
+  position: relative;
+
+  .gradient-bg-top {
+    z-index: 0;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 60%;
+    width: 60%;
+    border-radius: 90%;
+    background: hsla(270, 94%, 25%, 1);
+    background: linear-gradient(
+      90deg,
+      hsla(270, 94%, 25%, 1) 0%,
+      hsla(158, 94%, 49%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(270, 94%, 25%, 1) 0%,
+      hsla(158, 94%, 49%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(270, 94%, 25%, 1) 0%,
+      hsla(158, 94%, 49%, 1) 100%
+    );
+    opacity: 0.7;
+    filter: blur(90px);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .hero-title {
+      letter-spacing: 0.05em;
+      font-size: 4rem;
+      font-weight: 700;
+      background: hsla(186, 33%, 94%, 1);
+      background: linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -moz-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      .title-green {
+        background: hsla(270, 94%, 25%, 1);
+
+        background: linear-gradient(
+          90deg,
+          hsla(270, 94%, 25%, 1) 0%,
+          hsla(158, 94%, 49%, 1) 100%
+        );
+
+        background: -moz-linear-gradient(
+          90deg,
+          hsla(270, 94%, 25%, 1) 0%,
+          hsla(158, 94%, 49%, 1) 100%
+        );
+
+        background: -webkit-linear-gradient(
+          90deg,
+          hsla(270, 94%, 25%, 1) 0%,
+          hsla(158, 94%, 49%, 1) 100%
+        );
+        filter: blur(0.2px);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .hero-title-two,
+    .hero-title-three {
+      background: hsla(186, 33%, 94%, 1);
+      background: linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -moz-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 1rem;
+      text-align: center;
+      word-wrap: break-word;
+      font-weight: 500;
+      font-size: 1.4rem;
+      letter-spacing: 0.032em;
+    }
+
+    .hero-title-three {
+      font-weight: 400;
+      font-size: 1.3rem;
+    }
+
+    .hero-mode-badge {
+      margin-top: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      background: hsla(186, 33%, 94%, 1);
+      background: linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -moz-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      padding: 0.4rem 0.8rem;
+      border-radius: 50px;
+    }
+  }
+}
+
+@media all and (max-width: 425px) {
+  .hero-wrapper {
+    .gradient-bg-top {
+    }
+
+    .hero-content {
+      .hero-title {
+        font-size: 2.5rem;
+      }
+
+      .hero-title-two,
+      .hero-title-three {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -1,12 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<NavBar />}>
-          <Route index element={<h1>Hero section</h1>} />
+          <Route index element={<Home />} />
         </Route>
       </Routes>
     </>
