@@ -1,5 +1,7 @@
 import AboutSection from "../components/AboutSection";
+import ConfSponsors from "../components/ConfSponsors";
 import ConfTrackSection from "../components/ConfTrackSection";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 
 export default function Home() {
@@ -7,6 +9,7 @@ export default function Home() {
     <>
       <HeroSection />
       <ConfTrackSection />
+
       <AboutSection>
         <h2 className="title">About Conference</h2>
         <p className="about-conf-body">
@@ -28,6 +31,7 @@ export default function Home() {
           proceeding of the OTCON Will be submitted for inclusion to IEEE XPLORE
         </p>
       </AboutSection>
+
       <AboutSection>
         <h2 className="title">About OPJU</h2>
         <p className="about-conf-body">
@@ -52,6 +56,29 @@ export default function Home() {
           </a>
         </p>
       </AboutSection>
+
+      <ConfSponsors>
+        <h2 className="title">Conference Sponsors</h2>
+        <div className="sponsors-container">
+          <div className="sponsor">
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/O.P._Jindal_University_logo.png" />
+          </div>
+          <div className="sponsor">
+            <img src="https://www.opjuieeeotc.in/_nuxt/img/cgcost.b268db2.png" />
+          </div>
+        </div>
+      </ConfSponsors>
+
+      <ConfSponsors>
+        <h2 className="title">Technical Sponsor</h2>
+        <div className="sponsors-container">
+          <div className="sponsor iee-logo">
+            <img src="https://www.opjuieeeotc.in/_nuxt/img/ieeemp.af77a19.jpg" />
+          </div>
+        </div>
+      </ConfSponsors>
+
+      <Footer />
     </>
   );
 }

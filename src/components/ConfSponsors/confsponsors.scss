@@ -1,4 +1,4 @@
-.about-conf-wrapper {
+.conf-sponsor-wrapper {
   background-color: #1b1b1b;
   padding: 2% 5%;
   position: relative;
@@ -29,20 +29,41 @@
     -webkit-text-fill-color: transparent;
   }
 
-  .about-conf-body {
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 0.02em;
-    color: #f3f3f3;
-    font-size: 1.05rem;
-    padding-top: 1rem;
-    text-align: justify;
-    line-height: 1.5em;
-    font-weight: 400;
+  .sponsors-container {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+    .sponsor {
+      z-index: 1;
+      margin: 0.5rem 0;
+    }
+    .sponsor:first-child {
+      img {
+        height: 130px;
+      }
+    }
+
+    .sponsor:last-child {
+      background: hsla(186, 33%, 94%, 1);
+      padding: 0.2rem;
+    }
   }
 }
 
 @media all and (max-width: 768px) {
-  .about-conf-wrapper {
+  .conf-sponsor-wrapper {
     padding: 5%;
+
+    .sponsor:first-child {
+      &.iee-logo {
+        img {
+            height: 100px;
+        }
+      }
+    }
   }
 }
