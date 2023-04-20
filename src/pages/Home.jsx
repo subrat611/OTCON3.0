@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <ConfTrackSection />
 
       <AboutSection>
         <h2 className="title">About Conference</h2>
@@ -56,6 +55,8 @@ export default function Home() {
           </a>
         </p>
       </AboutSection>
+
+      <ConfTrackSection />
 
       <ConfSponsors>
         <h2 className="title">Conference Sponsors</h2>
