@@ -1,0 +1,30 @@
+.table-wrapper {
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+  .table-head-container {
+    tr {
+      .table-head {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .table-footer {
+    .table-footer-th {
+      font-size: 1rem;
+    }
+  }
+}
+
+
+@media all and (max-width: 768px) {
+    .table-wrapper {
+        margin: 3rem 1rem 0 1rem;
+    }
+}
