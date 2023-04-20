@@ -18,7 +18,7 @@ export default function NavBar() {
             <Link to="/404">Conference Schedule</Link>
           </li>
           <li>
-            <Link to="/404">Registration</Link>
+            <Link to="/registration">Registration</Link>
           </li>
           <li>
             <Link to="/404">Call for papers</Link>
@@ -64,7 +64,7 @@ export default function NavBar() {
               <Link to="/404">Conference Schedule</Link>
             </li>
             <li onClick={() => setToggleNav((prev) => !prev)}>
-              <Link to="/404">Registration</Link>
+              <Link to="/registration">Registration</Link>
             </li>
             <li onClick={() => setToggleNav((prev) => !prev)}>
               <Link to="/404">Call for papers</Link>
