@@ -5,6 +5,7 @@ import "./navbar.scss";
 
 export default function NavBar() {
   const [toggleNav, setToggleNav] = useState(false);
+  const [toggleDropMenu, setToggleDropMenu] = useState(false);
 
   return (
     <>
@@ -24,7 +25,25 @@ export default function NavBar() {
             <Link to="/404">Call for papers</Link>
           </li>
           <li>
-            <Link to="/404">Committees</Link>
+            <Link onClick={() => setToggleDropMenu((prev) => !prev)}>
+              Committees
+            </Link>
+            {toggleDropMenu && (
+              <ul className="drop-down-menu">
+                <li onClick={() => setToggleDropMenu((prev) => !prev)}>
+                  Organizing Committees
+                </li>
+                <li onClick={() => setToggleDropMenu((prev) => !prev)}>
+                  Technical Sponsor Committees
+                </li>
+                <li onClick={() => setToggleDropMenu((prev) => !prev)}>
+                  Extended Support Committees
+                </li>
+                <li onClick={() => setToggleDropMenu((prev) => !prev)}>
+                  Conference Execution Committees
+                </li>
+              </ul>
+            )}
           </li>
           <li>
             <Link to="/404">Advisory Board</Link>
@@ -69,8 +88,26 @@ export default function NavBar() {
             <li onClick={() => setToggleNav((prev) => !prev)}>
               <Link to="/404">Call for papers</Link>
             </li>
-            <li onClick={() => setToggleNav((prev) => !prev)}>
-              <Link to="/404">Committees</Link>
+            <li>
+              <Link onClick={() => setToggleDropMenu((prev) => !prev)}>
+                Committees
+              </Link>
+              {toggleDropMenu && (
+                <ul className="drop-down-mob-menu">
+                  <li onClick={() => setToggleNav((prev) => !prev)}>
+                    Organizing Committees
+                  </li>
+                  <li onClick={() => setToggleNav((prev) => !prev)}>
+                    Technical Sponsor Committees
+                  </li>
+                  <li onClick={() => setToggleNav((prev) => !prev)}>
+                    Extended Support Committees
+                  </li>
+                  <li onClick={() => setToggleNav((prev) => !prev)}>
+                    Conference Execution Committees
+                  </li>
+                </ul>
+              )}
             </li>
             <li onClick={() => setToggleNav((prev) => !prev)}>
               <Link to="/404">Advisory Board</Link>
