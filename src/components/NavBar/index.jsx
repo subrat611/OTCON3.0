@@ -46,7 +46,7 @@ export default function NavBar() {
             )}
           </li>
           <li>
-            <Link to="/404">Advisory Board</Link>
+            <Link to="/advisory-board">Advisory Board</Link>
           </li>
           <li>
             <Link to="/404">Keynote speaker</Link>
@@ -110,7 +110,7 @@ export default function NavBar() {
               )}
             </li>
             <li onClick={() => setToggleNav((prev) => !prev)}>
-              <Link to="/404">Advisory Board</Link>
+              <Link to="/advisory-board">Advisory Board</Link>
             </li>
             <li onClick={() => setToggleNav((prev) => !prev)}>
               <Link to="/404">Keynote speaker</Link>
