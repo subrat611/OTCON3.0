@@ -1,13 +1,16 @@
+import Wrapper from "../Layouts/Wrapper";
 import RegistrationTable from "../components/RegistrationTable";
 
 import "./styles/registration.scss";
+import "./styles/page.style.css";
 
 export default function Registration() {
   return (
-    <div className="reg-wrapper">
-      <div className="gradient-bg-top"></div>
+    <Wrapper>
       <h1 className="title">Registration Fee</h1>
-      <RegistrationTable />
-    </div>
+      <div className="reg-wrapper">
+        <RegistrationTable />
+      </div>
+    </Wrapper>
   );
 }
