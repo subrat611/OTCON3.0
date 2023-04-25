@@ -106,3 +106,37 @@ export const RegistrationFee = {
     },
   ],
 };
+
+export const internationAdvisoryBoard = [
+  {
+    name: "Dr. Ashok Sharma",
+    institute: "University of Jammu",
+    place: "India",
+  },
+  {
+    name: "Dr. Dilip Singh Sisodia",
+    institute: "National Institute of Technology",
+    place: "Raipur",
+  },
+  {
+    name: "Dr. Vivek Tiwari",
+    institute: "International Institute of Information Technology",
+    place: "Naya Raipur",
+  },
+  {
+    name: "Dr. Suraj Sharma",
+    institute: "Guru Ghasidas Vishwavidyalaya, A Central University",
+    place: "Bilaspur, Chhattisgarh, India",
+  },
+  {
+    name: "Dr. Papendra Kumar",
+    institute:
+      "Govind Ballabh Pant Institute of Engineering & Technology Pauri Garhwal",
+    place: "Uttarakhand, India",
+  },
+  {
+    name: "prof. Gaurav Bharadwaj",
+    institute: "Bikaner Technical University",
+    place: "Bikaner, India",
+  },
+];
