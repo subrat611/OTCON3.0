@@ -9,7 +9,11 @@ import "swiper/css/pagination";
 
 import "./styles/page.style.css";
 import "./styles/advisory.scss";
-import { internationAdvisoryBoard } from "../constants";
+import {
+  internationalAdvisoryBoard,
+  nationalAdvisoryBoard,
+} from "../constants";
+import { generateMembers } from "../utils/generateMembers";
 
 export default function AdvisoryBoard() {
   return (
@@ -33,17 +37,52 @@ export default function AdvisoryBoard() {
           modules={[EffectCoverflow]}
           className="mySwiper"
         >
-          {internationAdvisoryBoard.map(({ name, institute, place }, i) => (
-            <SwiperSlide key={i}>
-              <div className="swiper-slide-card">
-                <p className="card-name">{name}</p>
-                <div>
-                  <p className="card-institute">{institute}</p>
-                  <p className="card-place">{place}</p>
+          {generateMembers(internationalAdvisoryBoard).map(
+            ({ name, institute, place }, i) => (
+              <SwiperSlide key={i}>
+                <div className="swiper-slide-card">
+                  <p className="card-name">{name}</p>
+                  <div>
+                    <p className="card-institute">{institute}</p>
+                    <p className="card-place">{place}</p>
+                  </div>
                 </div>
-              </div>
-            </SwiperSlide>
-          ))}
+              </SwiperSlide>
+            )
+          )}
+        </Swiper>
+      </div>
+      <div className="advisory-wrapper">
+        <h2 className="title-2">National Advisory Board Members</h2>
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 0.8,
+            slideShadows: 800,
+          }}
+          pagination={false}
+          modules={[EffectCoverflow]}
+          className="mySwiper"
+        >
+          {generateMembers(nationalAdvisoryBoard).map(
+            ({ name, institute, place }, i) => (
+              <SwiperSlide key={i}>
+                <div className="swiper-slide-card">
+                  <p className="card-name">{name}</p>
+                  <div>
+                    <p className="card-institute">{institute}</p>
+                    <p className="card-place">{place}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            )
+          )}
         </Swiper>
       </div>
     </Wrapper>
