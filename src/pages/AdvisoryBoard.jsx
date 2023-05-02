@@ -14,6 +14,7 @@ import {
   nationalAdvisoryBoard,
 } from "../constants";
 import { generateMembers } from "../utils/generateMembers";
+import { useEffect } from "react";
 
 export default function AdvisoryBoard() {
   return (
