@@ -36,8 +36,11 @@ export default function NavBar() {
                 <li onClick={() => setToggleDropMenu((prev) => !prev)}>
                   Technical Sponsor Committees
                 </li>
-                <li onClick={() => setToggleDropMenu((prev) => !prev)}>
-                  <Link to="/committees/technical-program-committees">
+                <li>
+                  <Link
+                    to="/committees/technical-program-committees"
+                    onClick={() => setToggleDropMenu((prev) => !prev)}
+                  >
                     Technical Program Committees
                   </Link>
                 </li>
@@ -60,6 +63,7 @@ export default function NavBar() {
             <Link to="/404">Contact us</Link>
           </li>
         </ul>
+
         <div className="navbar-mob-wrapper">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -105,8 +109,13 @@ export default function NavBar() {
                   <li onClick={() => setToggleNav((prev) => !prev)}>
                     Technical Sponsor Committees
                   </li>
-                  <li onClick={() => setToggleDropMenu((prev) => !prev)}>
-                    Technical Program Committees
+                  <li>
+                    <Link
+                      to="/committees/technical-program-committees"
+                      onClick={() => setToggleDropMenu((prev) => !prev)}
+                    >
+                      Technical Program Committees
+                    </Link>
                   </li>
                   <li onClick={() => setToggleNav((prev) => !prev)}>
                     Extended Support Committees
