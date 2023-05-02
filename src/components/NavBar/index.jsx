@@ -37,7 +37,9 @@ export default function NavBar() {
                   Technical Sponsor Committees
                 </li>
                 <li onClick={() => setToggleDropMenu((prev) => !prev)}>
-                  Technical Program Committees
+                  <Link to="/committees/technical-program-committees">
+                    Technical Program Committees
+                  </Link>
                 </li>
                 <li onClick={() => setToggleDropMenu((prev) => !prev)}>
                   Extended Support Committees
