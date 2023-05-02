@@ -37,6 +37,9 @@ export default function NavBar() {
                   Technical Sponsor Committees
                 </li>
                 <li onClick={() => setToggleDropMenu((prev) => !prev)}>
+                  Technical Program Committees
+                </li>
+                <li onClick={() => setToggleDropMenu((prev) => !prev)}>
                   Extended Support Committees
                 </li>
                 <li onClick={() => setToggleDropMenu((prev) => !prev)}>
@@ -99,6 +102,9 @@ export default function NavBar() {
                   </li>
                   <li onClick={() => setToggleNav((prev) => !prev)}>
                     Technical Sponsor Committees
+                  </li>
+                  <li onClick={() => setToggleDropMenu((prev) => !prev)}>
+                    Technical Program Committees
                   </li>
                   <li onClick={() => setToggleNav((prev) => !prev)}>
                     Extended Support Committees

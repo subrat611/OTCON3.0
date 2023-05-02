@@ -11,8 +11,11 @@ function App() {
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
-          <Route path="registration" element={<Registration />} />
           <Route path="conference-schedule" element={<ConfSchedule />} />
+          <Route path="registration" element={<Registration />} />
+          <Route path="/committees/">
+            <Route path="technical-program-committees" element={<h1>ss</h1>} />
+          </Route>
           <Route path="advisory-board" element={<AdvisoryBoard />} />
         </Route>
       </Routes>
