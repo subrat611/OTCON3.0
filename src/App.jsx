@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Registration from "./pages/Registration";
 import ConfSchedule from "./pages/ConfSchedule";
 import AdvisoryBoard from "./pages/AdvisoryBoard";
+import TechnicalProgramCommittees from "./pages/TechnicalProgramCommittees";
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
           <Route path="conference-schedule" element={<ConfSchedule />} />
           <Route path="registration" element={<Registration />} />
           <Route path="/committees/">
-            <Route path="technical-program-committees" element={<h1>ss</h1>} />
+            <Route
+              path="technical-program-committees"
+              element={<TechnicalProgramCommittees />}
+            />
           </Route>
           <Route path="advisory-board" element={<AdvisoryBoard />} />
         </Route>

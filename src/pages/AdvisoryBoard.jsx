@@ -14,7 +14,6 @@ import {
   nationalAdvisoryBoard,
 } from "../constants";
 import { generateMembers } from "../utils/generateMembers";
-import { useEffect } from "react";
 
 export default function AdvisoryBoard() {
   return (
@@ -26,6 +25,7 @@ export default function AdvisoryBoard() {
           {generateMembers(internationalAdvisoryBoard).map(
             ({ name, institute, place }, i) => (
               <div className="swiper-slide-card" key={i}>
+                <p className="card-no">{i + 1}</p>
                 <p className="card-name">{name}</p>
                 <div>
                   <p className="card-institute">{institute}</p>
@@ -42,6 +42,7 @@ export default function AdvisoryBoard() {
           {generateMembers(nationalAdvisoryBoard).map(
             ({ name, institute, place }, i) => (
               <div className="swiper-slide-card" key={i}>
+                <p className="card-no">{i + 1}</p>
                 <p className="card-name">{name}</p>
                 <div>
                   <p className="card-institute">{institute}</p>

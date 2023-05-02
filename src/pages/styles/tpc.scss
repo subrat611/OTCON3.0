@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
-
-.advisory-wrapper {
+.tpc-wrapper {
   .title-2 {
     padding: 2rem 0.5rem;
     position: relative;
@@ -27,7 +25,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
   .swiper {
     margin-top: 1rem;
     width: 100%;
@@ -84,7 +81,7 @@
 }
 
 @media all and (max-width: 1217px) {
-  .advisory-wrapper {
+  .tpc-wrapper {
     .swiper {
       .swiper-slide-card {
         width: 80%;
