@@ -326,4 +326,138 @@ Dr. Elena Zakharova, Ryazan State Radio Engineering University, Russia
 Dr. Stanislav Goll, Ryazan State Radio Engineering University, Russia
 Dr. Mohammad Israr, Maryam Abacha, American University of Nigeria, Nigeria`;
 
-// export const tpc
+export const technicalProgramCommittees = `Ms. Shreya Gupta, Apple Inc.
+Dr. Ravi Tomar, Persistant 
+Dr. Gulistan Raja, UET Taxila
+Dr. Nitish Kumar Ojha, University Of Stirling, UK-UAE
+Dr. Rajkumar Singh Rathore, Cardiff Metropolitan University, Cardiff, United Kingdom
+Dr. Faz Rahman, University of New South Wales, Sydney, Australia
+Dr. Ariffuddin Joret, Universiti Tun Hussein Onn, Malaysia
+Dr. Rajeev Kumar Shakya, Adama Science and Technology University Adama, Ethiopia
+Dr. Rijwan Khan, ABES Institute of Technology, India
+Dr. Abhishek Goyal, KIET Group of Institutions, India
+Dr. Ravinder Kumar,	Thapar Institute of Engineering and Technology, Patiala, Inida
+Dr. Deepti Aggarwal, JSS Academy of Technical Education, Noida, india
+Dr. Chetan Barde, Indian Institute of Information Technology Bhagalpur, India
+Dr. Anurag Mishra, KIET Group of institutions, India
+Dr. Farhad Ilahi Bakhsh, National Institute of Technology Srinagar, India
+Dr. Rohith S, Nagarjuna College of Engineering and Technology, India
+Dr. Ravi M Gulati, Veer Narmad South Gujarat University, Surat, India
+Dr. Anjan K Ghosh, DAIICT, India
+Dr. Rajesh R, Central University of Kerala, India
+Dr. Mohammad Faseehuddin,	Symbiosis Institute of Technology, Pune, India
+Dr. Akansha khandelwal, IIS ( deemed to be university), India
+Dr. Amit Singh, DRDO, Government of India
+Dr. Ravi Shankar Sharma, JECRC University, India
+Dr. Nuzhat Faiz Shaikh, Modern Education Society's College of Engineering, Pune, India
+Dr Prakash Kumar, Jaypee Institute of Information Technology Noida, India
+Dr. Ansuman Jena, Centurion University of Technology and Management, India
+Dr. Rachit Garg, Department of Computer Sc. & Engg Jain University, India
+Dr. Diptee Ghusse, MIT Academy of Engineering, Alalndi(D), india
+Dr. Suman Kumar Saha, NIT Raipur, India
+Dr. Simrandeep Singh, IIT Ropar, India
+Dr. Janmenjoy Nayak, P. G. Department of Computer Science, MSCB University, Baripada, Odisha, India
+Dr. ketki Balde, Mumbai University, India
+Dr. Yadunath Pathak, VNIT, India
+Dr. Shamik Tiwari, UPES, Dehradun, India
+Dr. Rupak Chakraborty, Department of Computer Science and Engineering (AI/ML) at Techno India University, Kolkata, West Bengal, India
+Dr. Seema Maitrey, KIET Group of Institutions, Ghaziabad, India
+Dr. Amit Hariyani, CHARUSAT, India
+Dr. Ketki C. Pathak, Gujarat Technological University, India
+Dr. Ashish Sharma, GLA University, Mathura (UP), India
+Dr. Laxman Thakre, G H RAISONI COLLEGE OF ENGINEERING NAGPUR, INDIA
+Dr. Shubha Dubey, IES IPS Academy Indore M.P., India
+Dr. Jai Prakash Verma, CSE Department, Institute of Technology, Nirma University, Ahmedabad, India
+Dr. Avdhesh Gupta, Ajay Kumar Garg Engineering College, Ghaziabad, India
+DR. SHUBHAM NEGI, CHANDIGARH UNIVERSITY, INDIA
+Dr. Pankaj Pathak, Indian Institute of Technology Delhi, India
+Dr. ASHWINI KUMAR, GRAPHIC ERA DEEMED TO BE UNIVERSITY, DEHRADUN, INDIA
+Dr. krishna kumar mohbey, Central University of Rajasthan, India
+Dr. SUDESH KUMAR, Shri MataVaishno Devi University, Katra, India
+Dr. Mittal Desai, CHARUSAT University, India
+Dr. Ashish Sachdeva, Chitkara University, Chandigarh, India
+Dr. Nishant Gupta, Sharda University, Greater Noida, India
+Dr. Neha Adhikari, Central Power Research Institute, India
+Dr. Khushboo Rakha, Indian Institute of Technology Ropar, India
+Dr. Monika Arya, Bhilai institute of technology Durg, India
+Dr. Anil Kumar Bhardwaj, Shri Mata Vaishno Devi University, India
+Dr. Nidhi Agarwal , Galgotias University, greater Noida, India
+Dr. Niladri Dey, B. V. Raju Institute of Technology, Hyderabad, India
+Dr. S Sridevi, Thiagarajar College of Engineering, India
+Dr. Neeta Nathani, Gyan Ganga Institute of Technology and Sciences, Jabalpur, India
+Dr. Smita Bharne, D. Y. Patil deemed to be university, Navi Mumbai, Maharashtra, India 
+Dr. Purnima Sharma, Mody University of Science and Technology, India
+Dr. MOUMITA CHATTERJEE, Aliah University, India
+Dr. Sunita Kumari, School of Engineering and Technology, Mody University (Lakshmangarh), Sikar, India
+Dr. Jagannath Samanta, Haldia Institute of Technology, India
+Dr. Kalpana Rai, Sagar Institute of Reserch & Technology, Bhopal (MP), India
+Dr. Indrajeet Kumar, Graphic Era Hill University Dehradun, India
+Dr. Babita Hooda, BMU ROHTAK, India
+Dr. Ashok Kumar Yadav, Department of Information Technology, Rajkiya Engineering College Azamgarh, UP, India
+Dr. Sandeep Gupta, Dr. K. N. Modi University, Newai, India 
+Dr. Deepali Naik, PCET's PCCOE, Pune, India
+Dr. Harpreet Vohra, Thapar Institute of Engineering and Technology, Patiala, India
+Dr. Hiral M. Patel, Sankalchand Patel College of Engineering, India
+Dr. Hema Dhadhal, Lukhdhirji Engineering College, (Government of Gujarat), India
+Dr. SURESH DEVANAPALLI, RAVIJ GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES, BASAR
+Dr. Sanjoy Kumar Saha, CSE Dept., Jadavpur University, India
+Dr. Vikash Yadav, Department of Technical Education, Uttar Pradesh, India
+Dr. P M Meena, MBM University, Jodhpur, India
+Dr. Shailendra Singh, National Institute of Technology Agartala Tripura, India
+Dr. Umesh Kumar, JC Bose University of Science and Technology YMCA, Faridabad, India
+Dr. Bintu Kadhiwala, Gujarat Technological University, Sarvajanik University, India
+Dr. Monica Bhutani , Guru Gobind Singh Indraprastha University, India
+Dr. Jay Kumar Pandey, Shri Ramswaroop Memorial University, Deva Road, Barabank,U.P., India
+Dr. Suresh Chandra Wariyal, Uttarakhand Technical University, Dehradun, India
+Dr. Jeetu Sharma, Mody University of Science and Technology, India
+Dr. Mainak Bandyopadhyay, KIIT UNIVERSITY, India
+Dr. K. Lenin, Prasad V. Potluri Siddhartha Institute of Technology, India
+Dr. Deepika Bansal, Maharaja Agrasen Institute of Technology, Rohini, India
+Dr Girija J., Bangalore Institute of Technology, India
+Dr. Nilay M. Vaidya, Charotar University of Science and Technology (CHARUSAT), India
+Dr. M. VENKATAKIRTHIGA, NATIONAL INSTITUTE OF TECHNOLOGY TIRUCHIRAPPALLI, INDIA
+Dr. MADHUSMITA MISHRA , Chegg India Pvt. Ltd. India
+Dr. Hardik Bhalchandra Pandit, CMPICA, Faculty of Computer Applications, Charotar University of Science and Technology, India
+Dr. Sk Md Mosaddek Hossain, Aliah University
+Dr. Ajay Jangra, Kurukshetra University, Kurukshetra, India
+Dr. Apurva A. Mehta, Dharmsinh Desai University, India
+Dr. Mohd Mansoor Khan, Indian Institute of Information Technology Guwahati, India
+Dr. G Jeyakumar, Amrita School of Computing, Coimbatore, India
+Dr. Prachi Chhabra, JSS ACADEMY OF TECHNICAL EDUCATION, NOIDA, India
+Dr. Kamna Solanki, Maharshi Dayanand University, Rohtak, India
+Dr. Lakshmi Kumari , Management Education and Research Institute, India
+Dr. Deepak Kumar Panda, VIT AP University, India
+Dr. Shelly Gupta, ABES Engineering College, India
+Dr. Ranjan Upadhyaya, Inurture Education , Bangalore, Karnatka, India
+Dr. Manish Bhardwaj, KIET GROUP OF INSTITUTIONS, DELHI NCR, INDIA
+Dr. Sudip Roy, Indian Institute of Technology Roorkee, India
+Dr. Sorokhaibam Nilakanta Meitei, Manipur Institute of Technology, India
+Dr. Chandrakant.Naikodi, Davangere University, India
+Dr. Prabhat Verma, Harcourt Butler Technical University, Nawabganj Kanpur, India
+Dr. Richa Agrawal, NIT Patna, India
+Dr. Piyush Kumar Singh, Central University of South Bihar, India
+Dr. Lopamudra Dey, Heritage Institute of Technology, India
+Dr. Anil Kumar, IFTM university Moradabad, India
+Dr. Yogesh Golhar, St. Vincent Pallotti College of Engineering and Technology, India
+Dr. Varun Chand H, College of Engineering Perumon, Kerala (affiliated to APJ Abdul Kalam Technological University), india
+Dr. Shiv Ram Meena, Guru Gobind Singh Indraprastha University, India
+Dr. Sudhansu Shekhar Patra, KIIT Deemed to be University, India
+Dr. Anish Ahmad, Tezpur University Assam, India
+Dr. Samson Anosh Babu Parisapogu, Krishna Chaitanya Institute of Technology and Sciences, Markapur
+Dr. Leena Das, KIIT, Deemed to be University, India
+Dr. Chandresh Kumar Chhatlani, JRN Rajasthan Vidyapeeth, Udaipur, India
+Dr. Varun Kumar Kakar, B. T. Kumaon Institute of Technology, Dwarahat, Uttarakhand/ IEEE UP Section
+Dr. Vivek Tiwari, IIIT Naya Raipur, India
+Dr. P. Raghu Vamsi, Jaypee Institute of Information Technology, NOIDA, India
+Dr. Rajwant Singh, Guru Ghasidas Vishwavidyalaya Bilaspur, Chhattisgarh, India
+Dr. Senthil Kumar B, Sri Sivasubramaniya Nadar College of Engineering, India
+Dr. Indu Singh, Delhi Technological University, Delhi, India
+Dr. Vipan Kakkar, Shri Mata Vaishno Devi University, India
+Dr. Manoj Kumar Majumder, IIIT Naya Raipur, India
+Dr. Raju Bhukya, NIT, Warangal, India
+Dr. AMIT DAS, The ICFAI University Dehradun, India
+Dr. Jaspreet Kaur, AKTU, Lucknow
+Dr. Sonia Rathee, Maharaja Surajmal Institute of Technology, GGSIPU, Delhi, India
+Dr. E Ravi Kumar, Vardhaman College of Engineering, India
+Dr. Tripuresh Joshi, Tula's Institute, Dehradun, India
+Dr. Ashwini Kumar Saini, G B Pant Institute of Engineering and Technology Pauri Garhwal Uttarakhand, India`;
