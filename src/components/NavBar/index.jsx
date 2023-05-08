@@ -5,15 +5,44 @@ import "./navbar.scss";
 
 export default function NavBar() {
   const [toggleNav, setToggleNav] = useState(false);
-  const [toggleDropMenu, setToggleDropMenu] = useState(false);
+
+  // state for dropdown menus
+  const [toggleDropMenu, setToggleDropMenu] = useState({
+    committees: false,
+    callforpaper: false,
+  });
 
   const handleToggleAll = () => {
-    setToggleDropMenu((prev) => !prev);
+    setToggleDropMenu((prev) => ({
+      ...prev,
+      committees: false,
+      callforpaper: false,
+    }));
     setToggleNav((prev) => !prev);
   };
 
-  const handleToggleMenu = () => {
-    setToggleDropMenu((prev) => !prev);
+  const handleToggleMenu = (selectedLink) => {
+    if (selectedLink !== "callforpaper") {
+      setToggleDropMenu((prev) => ({
+        ...prev,
+        callforpaper: false,
+      }));
+    }
+
+    if (selectedLink !== "committees") {
+      setToggleDropMenu((prev) => ({
+        ...prev,
+        committees: false,
+      }));
+    }
+
+    setToggleDropMenu(
+      (prev) => ({
+        ...prev,
+        [selectedLink]: !prev[selectedLink],
+      }),
+      selectedLink
+    );
   };
 
   const handleToggleNav = () => {
@@ -35,13 +64,36 @@ export default function NavBar() {
             <Link to="/registration">Registration</Link>
           </li>
           <li>
-            <Link to="/404">Call for papers</Link>
+            <Link onClick={() => handleToggleMenu("callforpaper")}>
+              Call for papers
+            </Link>
+            {toggleDropMenu.callforpaper && (
+              <ul className="drop-down-menu">
+                <li>
+                  <Link
+                    to="/callforpapper/instruction-for-author"
+                    onClick={handleToggleMenu}
+                  >
+                    Instructions for Authors
+                  </Link>
+                </li>
+              </ul>
+            )}
           </li>
           <li>
-            <Link onClick={handleToggleMenu}>Committees</Link>
-            {toggleDropMenu && (
+            <Link onClick={() => handleToggleMenu("committees")}>
+              Committees
+            </Link>
+            {toggleDropMenu.committees && (
               <ul className="drop-down-menu">
-                <li onClick={handleToggleMenu}>Organizing Committees</li>
+                <li>
+                  <Link
+                    to="/committees/organizing-committees"
+                    onClick={handleToggleMenu}
+                  >
+                    Organizing Committees
+                  </Link>
+                </li>
                 <li onClick={handleToggleMenu}>Technical Sponsor Committees</li>
                 <li>
                   <Link
@@ -99,14 +151,37 @@ export default function NavBar() {
             <li onClick={handleToggleNav}>
               <Link to="/registration">Registration</Link>
             </li>
-            <li onClick={handleToggleNav}>
-              <Link to="/404">Call for papers</Link>
+            <li>
+              <Link onClick={() => handleToggleMenu("callforpaper")}>
+                Call for papers
+              </Link>
+              {toggleDropMenu.callforpaper && (
+                <ul className="drop-down-mob-menu">
+                  <li>
+                    <Link
+                      to="/callforpapper/instruction-for-author"
+                      onClick={handleToggleAll}
+                    >
+                      Instructions for Authors
+                    </Link>
+                  </li>
+                </ul>
+              )}
             </li>
             <li>
-              <Link onClick={handleToggleMenu}>Committees</Link>
-              {toggleDropMenu && (
+              <Link onClick={() => handleToggleMenu("committees")}>
+                Committees
+              </Link>
+              {toggleDropMenu.committees && (
                 <ul className="drop-down-mob-menu">
-                  <li onClick={handleToggleAll}>Organizing Committees</li>
+                  <li>
+                    <Link
+                      to="/committees/organizing-committees"
+                      onClick={handleToggleAll}
+                    >
+                      Organizing Committees
+                    </Link>
+                  </li>
                   <li onClick={handleToggleAll}>
                     Technical Sponsor Committees
                   </li>

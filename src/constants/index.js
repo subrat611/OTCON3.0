@@ -461,3 +461,62 @@ Dr. Sonia Rathee, Maharaja Surajmal Institute of Technology, GGSIPU, Delhi, Indi
 Dr. E Ravi Kumar, Vardhaman College of Engineering, India
 Dr. Tripuresh Joshi, Tula's Institute, Dehradun, India
 Dr. Ashwini Kumar Saini, G B Pant Institute of Engineering and Technology Pauri Garhwal Uttarakhand, India`;
+
+export const organizingCommittees = [
+  {
+    name: "Mr. Naveen Jindal",
+    subtitle: "Chief Patron",
+  },
+  {
+    name: "Ms. Shallu Jindal",
+    subtitle: "Patron",
+  },
+  {
+    name: "Dr. R.D. Patidar",
+    subtitle: "Chairman",
+  },
+  {
+    name: "Dr. Bhupesh Kumar Dewangan",
+    subtitle: "Convener",
+  },
+  {
+    name: "Dr. Arti Vaish",
+    subtitle: "Co-Convener",
+  },
+  {
+    name: "Dr. Amit Jain",
+    subtitle: "Technical Program Chair",
+  },
+  {
+    name: "Dr. RN Shukla",
+    subtitle: "Organizing Secretaries",
+  },
+  {
+    name: "Dr. Saroj Chandra",
+    subtitle: "Organizing Secretaries",
+  },
+  {
+    name: "Dr. Gulshan Soni",
+    subtitle: "Joint Secretaries",
+  },
+  {
+    name: "Dr. Rakesh Nayak",
+    subtitle: "Publication Chair",
+  },
+  {
+    name: "Dr. Sanjay Singh",
+    subtitle: "Publicity Chair",
+  },
+  {
+    name: "Mr. Anup Kumar Bharti",
+    subtitle: "Publicity Chair",
+  },
+  {
+    name: "Mr. Avimanyu Singh",
+    subtitle: "Finance Chair",
+  },
+  {
+    name: "Dr. Abhilasha Chaudhuri",
+    subtitle: "Web Chair",
+  },
+];

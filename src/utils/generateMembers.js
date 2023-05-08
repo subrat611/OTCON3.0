@@ -4,7 +4,6 @@ export function generateMembers(text) {
 
   newLineSeparatedArr.map((data) => {
     const boardMember = data.split(",");
-    console.log(boardMember);
 
     const item = {
       name: boardMember[0].trim(),

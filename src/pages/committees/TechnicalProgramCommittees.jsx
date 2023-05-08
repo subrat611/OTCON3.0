@@ -1,10 +1,10 @@
-import Wrapper from "../Layouts/Wrapper";
-import { technicalProgramCommittees } from "../constants";
+import Wrapper from "../../Layouts/Wrapper";
 
-import { generateMembers } from "../utils/generateMembers";
+import { technicalProgramCommittees } from "../../constants";
+import { generateMembers } from "../../utils/generateMembers";
 
-import "./styles/page.style.css";
-import "./styles/tpc.scss";
+import "../styles/page.style.css";
+import "../styles/tpc.scss";
 
 export default function TechnicalProgramCommittees() {
   return (
