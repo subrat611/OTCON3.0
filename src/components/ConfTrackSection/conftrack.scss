@@ -46,8 +46,10 @@
     flex: 3;
 
     .track-card {
+      position: relative;
       height: max-content;
-      width: 300px;
+      overflow: hidden;
+      width: 350px;
       opacity: 0.8;
       position: relative;
       background-color: #1a1a1a;
