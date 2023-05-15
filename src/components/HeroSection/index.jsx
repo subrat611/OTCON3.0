@@ -1,7 +1,50 @@
+import { useEffect, useState } from "react";
 import CountDownTimer from "../CountDownTimer";
 import "./hero.scss";
 
 export default function HeroSection() {
+  const [timer, setTimer] = useState({
+    days: 0,
+    hours: 0,
+    mins: 0,
+    sec: 0,
+  });
+
+  useEffect(() => {
+    const countDownTimer = new Date("Feb 7, 2024").getTime();
+
+    const x = setInterval(() => {
+      const currentTime = new Date().getTime();
+      const time = countDownTimer - currentTime;
+
+      let d = Math.floor(time / (1000 * 60 * 60 * 24));
+      let h = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let m = Math.floor((time % (1000 * 60 * 60)) / (1000 * 60));
+      let s = Math.floor((time % (1000 * 60)) / 1000);
+
+      setTimer({
+        days: d,
+        hours: h,
+        mins: m,
+        sec: s,
+      });
+
+      if (time < 0) {
+        clearInterval(x);
+        setTimer({
+          days: 0,
+          hours: 0,
+          mins: 0,
+          sec: 0,
+        });
+      }
+    }, 1000);
+
+    return () => {
+      clearInterval(x);
+    };
+  });
+
   return (
     <div className="hero-wrapper">
       <div className="gradient-bg-top"></div>
@@ -12,13 +55,13 @@ export default function HeroSection() {
         <p className="hero-title-two">
           OPJU INTERNATIONAL TECHNOLOGY CONFERENCE
           <br />
-          On Emerging Technologies for Sustainable Development (8-10 Feb, 2023)
+          On Emerging Technologies for Sustainable Development (7-9 Feb, 2024)
         </p>
         <p className="hero-title-three">
           Venue: O.P. Jindal University, Raigarh, Chhattisgarh, India.
         </p>
         <p className="hero-mode-badge">Hybrid Mode</p>
-        <CountDownTimer />
+        <CountDownTimer timer={timer} />
       </div>
     </div>
   );
