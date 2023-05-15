@@ -680,8 +680,8 @@ export const extendedSupportCommittees = [
         branch: "CSE",
       },
       {
-        name: "",
-        branch: "",
+        name: "Arindam Chakraborty",
+        branch: "CSE",
       },
       {
         name: "Kanishka Singh",
