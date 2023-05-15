@@ -41,7 +41,9 @@ export default function ConfTrackSection() {
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
-              <AccordionPanel pb={4}>SUBMISSION CLOSED</AccordionPanel>
+              <AccordionPanel pb={4} color="yellow.200">
+                30 November 2023
+              </AccordionPanel>
             </AccordionItem>
 
             <AccordionItem>
@@ -53,7 +55,9 @@ export default function ConfTrackSection() {
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
-              <AccordionPanel pb={4}>15th December 2022</AccordionPanel>
+              <AccordionPanel pb={4} color="yellow.200">
+                31 December 2023
+              </AccordionPanel>
             </AccordionItem>
 
             <AccordionItem>
@@ -65,7 +69,9 @@ export default function ConfTrackSection() {
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
-              <AccordionPanel pb={4}>10th January 2023</AccordionPanel>
+              <AccordionPanel pb={4} color="yellow.200">
+                10th January 2024
+              </AccordionPanel>
             </AccordionItem>
 
             <AccordionItem>
