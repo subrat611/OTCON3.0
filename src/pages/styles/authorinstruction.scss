@@ -1,0 +1,57 @@
+.ifa-wrapper {
+  padding: 0 5%;
+
+  h2 {
+    padding: 2rem 0;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-size: 2rem;
+    font-weight: 700;
+    background: rgb(247, 247, 247);
+    background: linear-gradient(
+      45deg,
+      hsla(186, 33%, 94%, 1) 0%,
+      rgb(221, 230, 241) 100%
+    );
+    background: -moz-linear-gradient(
+      45deg,
+      hsla(186, 33%, 94%, 1) 0%,
+      hsla(216, 41%, 79%, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      hsla(186, 33%, 94%, 1) 0%,
+      hsla(216, 41%, 79%, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  a {
+    color: rgb(101, 142, 255);
+  }
+
+  p {
+    color: #ffffffe3;
+    font-size: 1.1rem;
+  }
+
+  ul {
+    padding: 0 2%;
+    li {
+      list-style: disc;
+      color: #ffffffe3;
+      font-size: 1.1rem;
+      line-height: 2rem;
+
+      ul {
+        padding: 0 20px;
+        li {
+          color: #ffffffe3;
+          list-style: circle;
+          line-height: 2rem;
+        }
+      }
+    }
+  }
+}
