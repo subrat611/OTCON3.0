@@ -7,6 +7,7 @@ import AdvisoryBoard from "./pages/AdvisoryBoard";
 import AuthorInstruction from "./pages/AuthorInstruction";
 import TechnicalProgramCommittees from "./pages/committees/TechnicalProgramCommittees";
 import OrganizingCommittees from "./pages/committees/OrganizingCommittees";
+import ExtendedCommittees from "./pages/committees/ExtendedCommittees";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
             <Route
               path="organizing-committees"
               element={<OrganizingCommittees />}
+            />
+            <Route
+              path="extended-support-committees"
+              element={<ExtendedCommittees />}
             />
           </Route>
           <Route path="advisory-board" element={<AdvisoryBoard />} />

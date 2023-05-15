@@ -11,7 +11,7 @@ export default function OrganizingCommittees() {
       <h1 className="title">Organizing Committee</h1>
       <div className="organizing-committee-wrapper">
         <div className="oc-swiper">
-          {organizingCommittees.map(({ name, subtitle }, i) => (
+          {organizingCommittees.map(({ name, subtitle, img }, i) => (
             <div className="oc-swiper-slide-card" key={i}>
               <div className="oc-card-content">
                 <p className="oc-card-no">{i + 1}</p>
@@ -21,10 +21,7 @@ export default function OrganizingCommittees() {
                 </div>
               </div>
               <div className="oc-member-img">
-                <img
-                  src="https://www.opjuieeeotc.in/_nuxt/img/13.daf3db2.png"
-                  alt="image"
-                />
+                {img && <img src={`${img}`} alt="image" />}
               </div>
             </div>
           ))}

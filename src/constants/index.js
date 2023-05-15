@@ -551,38 +551,50 @@ Dr. E Ravi Kumar, Vardhaman College of Engineering, India
 Dr. Tripuresh Joshi, Tula's Institute, Dehradun, India
 Dr. Ashwini Kumar Saini, G B Pant Institute of Engineering and Technology Pauri Garhwal Uttarakhand, India`;
 
+import Arti from "../assets/oc/artivaish.png";
+import Amit from "../assets/oc/amit.png";
+import Shukla from "../assets/oc/shukla.png";
+
 export const organizingCommittees = [
   {
     name: "Mr. Naveen Jindal",
     subtitle: "Chief Patron",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/13.daf3db2.png",
   },
   {
     name: "Ms. Shallu Jindal",
     subtitle: "Patron",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/10.75422ad.png",
   },
   {
     name: "Dr. R.D. Patidar",
     subtitle: "Chairman",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/12.a7e427f.png",
   },
   {
     name: "Dr. Bhupesh Kumar Dewangan",
     subtitle: "Convener",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/2.fceedd8.png",
   },
   {
     name: "Dr. Arti Vaish",
     subtitle: "Co-Convener",
+    img: Arti,
   },
   {
     name: "Dr. Amit Jain",
     subtitle: "Technical Program Chair",
+    img: Amit,
   },
   {
     name: "Dr. RN Shukla",
     subtitle: "Organizing Secretaries",
+    img: Shukla,
   },
   {
     name: "Dr. Saroj Chandra",
     subtitle: "Organizing Secretaries",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/5.5fac84a.png",
   },
   {
     name: "Dr. Gulshan Soni",
@@ -591,14 +603,17 @@ export const organizingCommittees = [
   {
     name: "Dr. Rakesh Nayak",
     subtitle: "Publication Chair",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/3.e044c19.png",
   },
   {
     name: "Dr. Sanjay Singh",
     subtitle: "Publicity Chair",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/7.6a37220.png",
   },
   {
     name: "Mr. Anup Kumar Bharti",
     subtitle: "Publicity Chair",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/15.32b8c9e.png",
   },
   {
     name: "Mr. Avimanyu Singh",
@@ -607,5 +622,131 @@ export const organizingCommittees = [
   {
     name: "Dr. Abhilasha Chaudhuri",
     subtitle: "Web Chair",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/4.f72d18e.png",
+  },
+];
+
+export const extendedSupportCommittees = [
+  {
+    title: "Student Members",
+    members: [
+      {
+        name: "Adarsh Chandel",
+        branch: "CSE",
+      },
+      {
+        name: "Arindam Chakraborty",
+        branch: "CSE",
+      },
+      {
+        name: "Kanishka Singh",
+        branch: "CSE",
+      },
+      {
+        name: "Manish Gupta",
+        branch: "CSE",
+      },
+      {
+        name: "Priya Agrawal",
+        branch: "CSE",
+      },
+      {
+        name: "Shruti Sharma",
+        branch: "CSE",
+      },
+      {
+        name: "Soumya Mittal",
+        branch: "CSE",
+      },
+      {
+        name: "Sunny Singh",
+        branch: "CSE",
+      },
+      {
+        name: "Tignanshu Mishra",
+        branch: "CSE",
+      },
+      {
+        name: "Harsh Agrawal",
+        branch: "CSE",
+      },
+    ],
+  },
+  {
+    title: "Student Coordinators",
+    members: [
+      {
+        name: "Adarsh Chandel",
+        branch: "CSE",
+      },
+      {
+        name: "",
+        branch: "",
+      },
+      {
+        name: "Kanishka Singh",
+        branch: "CSE",
+      },
+      {
+        name: "Manish Gupta",
+        branch: "CSE",
+      },
+      {
+        name: "Priya Agrawal",
+        branch: "CSE",
+      },
+      {
+        name: "Shruti Sharma",
+        branch: "CSE",
+      },
+      {
+        name: "Soumya Mittal",
+        branch: "CSE",
+      },
+      {
+        name: "Sunny Singh",
+        branch: "CSE",
+      },
+      {
+        name: "Tignanshu Mishra",
+        branch: "CSE",
+      },
+      {
+        name: "Harsh Agrawal",
+        branch: "CSE",
+      },
+      {
+        name: "Ambuj Raj",
+        branch: "CSE",
+      },
+      {
+        name: "Udit Shukla",
+        branch: "CSE",
+      },
+      {
+        name: "Jeet Jain",
+        branch: "CSE",
+      },
+      {
+        name: "Shruti Ghosh",
+        branch: "CSE",
+      },
+      {
+        name: "Shivam sharma",
+        branch: "CIVIL",
+      },
+      {
+        name: "Navya Tiwari",
+        branch: "CSE",
+      },
+      {
+        name: "Shreeya Sharma",
+        branch: "CSE",
+      },
+      {
+        name: "Harsh Tiwari",
+        branch: "CSE",
+      },
+    ],
   },
 ];

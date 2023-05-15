@@ -103,7 +103,14 @@ export default function NavBar() {
                     Technical Program Committees
                   </Link>
                 </li>
-                <li onClick={handleToggleMenu}>Extended Support Committees</li>
+                <li>
+                  <Link
+                    to="/committees/extended-support-committees"
+                    onClick={handleToggleMenu}
+                  >
+                    Extended Support Committees
+                  </Link>
+                </li>
                 <li onClick={handleToggleMenu}>
                   Conference Execution Committees
                 </li>
@@ -193,7 +200,14 @@ export default function NavBar() {
                       Technical Program Committees
                     </Link>
                   </li>
-                  <li onClick={handleToggleAll}>Extended Support Committees</li>
+                  <li>
+                    <Link
+                      to="/committees/extended-support-committees"
+                      onClick={handleToggleAll}
+                    >
+                      Extended Support Committees
+                    </Link>
+                  </li>
                   <li onClick={handleToggleAll}>
                     Conference Execution Committees
                   </li>
