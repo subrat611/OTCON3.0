@@ -239,6 +239,12 @@ export default function AuthorInstruction() {
           As evaluated by TPC Chairs and TPC Members, ONE paper in each track
           will be given Travel Grant
         </p>
+
+        <h2>Research Grant Awards</h2>
+        <p>
+          As evaluated by TPC Chairs and TPC Members, only one research will be
+          given.
+        </p>
       </div>
     </Wrapper>
   );

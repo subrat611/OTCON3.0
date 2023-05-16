@@ -52,14 +52,16 @@ export default function NavBar() {
   return (
     <>
       <nav className="navbar-wrapper">
-        <h2>OTCON 3.0</h2>
+        <h2>
+          <Link to="/">OTCON 3.0</Link>
+        </h2>
         <ul className="navbar-links">
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/conference-schedule">Conference Schedule</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/registration">Registration</Link>
           </li>
@@ -152,9 +154,9 @@ export default function NavBar() {
             <li onClick={handleToggleNav}>
               <Link to="/">Home</Link>
             </li>
-            <li onClick={handleToggleNav}>
+            {/* <li onClick={handleToggleNav}>
               <Link to="/conference-schedule">Conference Schedule</Link>
-            </li>
+            </li> */}
             <li onClick={handleToggleNav}>
               <Link to="/registration">Registration</Link>
             </li>
