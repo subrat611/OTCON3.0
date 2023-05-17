@@ -47,6 +47,13 @@ export default function HeroSection() {
 
   return (
     <div className="hero-wrapper">
+      <div className="scroll-box">
+        <div className="scroll-item-box">
+          <p className="scroll-item item1">Best Paper Awards</p>
+          <p className="scroll-item item2">Travel Grant Awards</p>
+          <p className="scroll-item item3">Research Grant Awards</p>
+        </div>
+      </div>
       <div className="gradient-bg-top"></div>
       <div className="hero-content">
         <h1 className="hero-title">

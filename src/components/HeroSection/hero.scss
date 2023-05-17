@@ -5,6 +5,68 @@
   position: relative;
   font-family: "Roboto", sans-serif;
 
+  .scroll-box {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-color: #16161688;
+    overflow: hidden;
+    height: 50px;
+
+    .scroll-item-box {
+      padding: 0.7rem 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 100%;
+      transform: translate(50%);
+      -moz-transform: translateX(50%);
+      -webkit-transform: translateX(50%);
+
+      animation: scroll 15s linear infinite;
+      @keyframes scroll {
+        0% {
+          -moz-transform: translateX(50%); /* Firefox bug fix */
+          -webkit-transform: translateX(50%); /* Firefox bug fix */
+          transform: translateX(50%);
+        }
+        100% {
+          -moz-transform: translateX(-90%); /* Firefox bug fix */
+          -webkit-transform: translateX(-90%); /* Firefox bug fix */
+          transform: translateX(-90%);
+        }
+      }
+    }
+
+    .scroll-item {
+      font-size: 1.3rem;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+      background: hsla(186, 33%, 94%, 1);
+      background: linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -moz-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        45deg,
+        hsla(186, 33%, 94%, 1) 0%,
+        hsla(216, 41%, 79%, 1) 100%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
   .gradient-bg-top {
     z-index: 0;
     position: absolute;
@@ -159,6 +221,13 @@
 
 @media all and (max-width: 425px) {
   .hero-wrapper {
+    .scroll-box {
+      width: 200%;
+      .scroll-item-box {
+        animation: scroll 10s linear infinite;
+      }
+    }
+
     .hero-content {
       .hero-title {
         font-size: 2.5rem;
