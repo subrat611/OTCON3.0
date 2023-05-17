@@ -4,13 +4,13 @@
   background-color: #1b1b1b;
   position: relative;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 
   .scroll-box {
     position: relative;
     width: 100%;
     z-index: 1;
     background-color: #16161688;
-    overflow: hidden;
     height: 50px;
 
     .scroll-item-box {
