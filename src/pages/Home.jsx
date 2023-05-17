@@ -15,18 +15,13 @@ export default function Home() {
       <AboutSection>
         <h2 className="title">About Conference</h2>
         <p className="about-conf-body">
-          The <strong>OTCON</strong> aims to be a premier conference in Central
-          India and will provide a platform for researchers, academicians,
-          working professionals, students and government personnel from various
-          engineering fields to share and discuss the latest emerging
-          technologies and related research for sustainable development,
-          especially in the domain of{" "}
-          <strong>
-            Intelligent Computing, Communication, Control, Networking, Renewable
-            Energy, Power Systems, IoT, Automation, Manufacturing, Signal and
-            Image Processing, Cyber-Physical Systems, Metaverse, Education,
-            Environment, and Economics
-          </strong>
+          The <strong>OTCON</strong> is a premier conference in Central India
+          and provides a platform for researchers, academicians, working
+          professionals, students and government personnel from various
+          engineering fields to share and discuss the innovation and advancement
+          of smart computing for Industry 4.0, especially in smart computing for
+          high-performance computing, security, IOT and sensor devices, data
+          sciences, communication and network, signal processing and many more
           .The conference will witness multiple eminent keynote speakers from
           academia and industry from all over the world along with the
           presentation of accepted peer-reviewed articles.The after-conference
