@@ -809,4 +809,10 @@ export const contactusMember = [
     email: "rakesh.nayak@opju.ac.in",
     mobile: "+91 9440530306",
   },
+  {
+    name: "Dr. Amit Jain",
+    subtitle: "Technical Program Chair Professor, CSE",
+    email: "amit.jain@opju.ac.in",
+    mobile: "+91 9413712299",
+  },
 ];
