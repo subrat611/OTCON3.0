@@ -551,6 +551,39 @@ Dr. E Ravi Kumar, Vardhaman College of Engineering, India
 Dr. Tripuresh Joshi, Tula's Institute, Dehradun, India
 Dr. Ashwini Kumar Saini, G B Pant Institute of Engineering and Technology Pauri Garhwal Uttarakhand, India`;
 
+export const technicalSponsorCommittees = [
+  {
+    name: "Dr. Geetam Tomar",
+    subtitle: "Section Chair",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/geetam.601f8fa.png",
+  },
+  {
+    name: "Dr. Manish Dixit",
+    subtitle: "Section Vice Chair, Operations",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/Manish-Dixit.5392dc6.png",
+  },
+  {
+    name: "Dr. Narendra Chaudhari",
+    subtitle: "Section Vice Chair, Liaison",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/narendra-chaudhari.00cfca5.png",
+  },
+  {
+    name: "Dr. Amit Ojha",
+    subtitle: "Section Secretary",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/amit_ojha.9d66a66.png",
+  },
+  {
+    name: "Dr. Vivek Tiwari",
+    subtitle: "Chair Newsletter",
+    img: "https://www.opjuieeeotc.in/_nuxt/img/vk.cdc371d.png",
+  },
+  {
+    name: "Dr. R.N. Patel",
+    subtitle: "TPAC Chair and Coordinator-CG",
+    img: "",
+  },
+];
+
 import Arti from "../assets/oc/artivaish.png";
 import Amit from "../assets/oc/amit.png";
 import Shukla from "../assets/oc/shukla.png";

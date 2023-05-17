@@ -96,7 +96,14 @@ export default function NavBar() {
                     Organizing Committees
                   </Link>
                 </li>
-                <li onClick={handleToggleMenu}>Technical Sponsor Committees</li>
+                <li onClick={handleToggleMenu}>
+                  <Link
+                    to="/committees/technical-sponsor-committees"
+                    onClick={handleToggleMenu}
+                  >
+                    Technical Sponsor Committees
+                  </Link>
+                </li>
                 <li>
                   <Link
                     to="/committees/technical-program-committees"
@@ -191,8 +198,13 @@ export default function NavBar() {
                       Organizing Committees
                     </Link>
                   </li>
-                  <li onClick={handleToggleAll}>
-                    Technical Sponsor Committees
+                  <li>
+                    <Link
+                      to="/committees/technical-sponsor-committees"
+                      onClick={handleToggleAll}
+                    >
+                      Technical Sponsor Committees
+                    </Link>
                   </li>
                   <li>
                     <Link

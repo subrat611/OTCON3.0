@@ -9,6 +9,7 @@ import TechnicalProgramCommittees from "./pages/committees/TechnicalProgramCommi
 import OrganizingCommittees from "./pages/committees/OrganizingCommittees";
 import ExtendedCommittees from "./pages/committees/ExtendedCommittees";
 import Contactus from "./pages/Contactus";
+import TechnicalSponsor from "./pages/committees/TechnicalSponsor";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
             <Route
               path="technical-program-committees"
               element={<TechnicalProgramCommittees />}
+            />
+            <Route
+              path="technical-sponsor-committees"
+              element={<TechnicalSponsor />}
             />
             <Route
               path="organizing-committees"
