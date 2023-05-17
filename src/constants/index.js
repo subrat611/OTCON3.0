@@ -792,21 +792,21 @@ export const contactusMember = [
     mobile: "+91 7060599233",
   },
   {
-    name: "Dr. M. Kalyan Phani",
-    subtitle: "Convener Associate Professor, META",
-    email: "kalyan.makkuva@opju.ac.in",
-    mobile: "+91 9445884028",
+    name: "Dr. RN Shukla",
+    subtitle: "Secretary OTCON Senior Assistant Professor, CSE",
+    email: "rnshukla@opju.ac.in",
+    mobile: "+91 9826321667",
+  },
+  {
+    name: "Dr. Saroj Chandra",
+    subtitle: "Secretary OTCON Senior Assistant Professor, CSE",
+    email: "saroj.chandra@opju.ac.in",
+    mobile: "+91 9753979616",
   },
   {
     name: "Dr. Rakesh Nayak",
     subtitle: "Publication Chair Professor & HOD CSE",
     email: "rakesh.nayak@opju.ac.in",
     mobile: "+91 9440530306",
-  },
-  {
-    name: "Dr. Saroj Chandra",
-    subtitle: "Technical Program Chair Senior Assistant Professor CSE",
-    email: "saroj.chandra@opju.ac.in",
-    mobile: "+91 9753979616",
   },
 ];
