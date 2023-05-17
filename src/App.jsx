@@ -8,6 +8,7 @@ import AuthorInstruction from "./pages/AuthorInstruction";
 import TechnicalProgramCommittees from "./pages/committees/TechnicalProgramCommittees";
 import OrganizingCommittees from "./pages/committees/OrganizingCommittees";
 import ExtendedCommittees from "./pages/committees/ExtendedCommittees";
+import Contactus from "./pages/Contactus";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             />
           </Route>
           <Route path="advisory-board" element={<AdvisoryBoard />} />
+          <Route path="contactus" element={<Contactus />} />
         </Route>
       </Routes>
     </>
