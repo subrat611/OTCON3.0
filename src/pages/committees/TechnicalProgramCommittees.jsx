@@ -9,7 +9,12 @@ import "../styles/tpc.scss";
 export default function TechnicalProgramCommittees() {
   return (
     <Wrapper>
+      <img
+        src="https://www.opjuieeeotc.in/_nuxt/img/ieeemp.af77a19.jpg"
+        className="iee-mp-logo"
+      />
       <h1 className="title">Technical Program Committees</h1>
+      <h2 className="about-iee-title">About IEEE MP Section</h2>
       <p className="subtitle">
         The Institute of Electrical and Electronics Engineers, Incorporated
         (IEEE) is a non-profit corporation, incorporated in the state of New
