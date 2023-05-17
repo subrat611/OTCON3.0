@@ -60,9 +60,9 @@ export default function HeroSection() {
           OTCON <span className="title-green">3.0</span>
         </h1>
         <p className="hero-title-two">
-          OPJU INTERNATIONAL TECHNOLOGY CONFERENCE
-          <br />
-          On Emerging Technologies for Sustainable Development (7-9 Feb, 2024)
+          OPJU International Technology Conference (OTCON 3.0) <br /> on Smart
+          Computing for Innovation and Advancement in Industry 4.0. (7-9 Feb,
+          2024)
         </p>
         <p className="hero-title-three">
           Venue: O.P. Jindal University, Raigarh, Chhattisgarh, India.
