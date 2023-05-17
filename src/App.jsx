@@ -10,6 +10,7 @@ import OrganizingCommittees from "./pages/committees/OrganizingCommittees";
 import ExtendedCommittees from "./pages/committees/ExtendedCommittees";
 import Contactus from "./pages/Contactus";
 import TechnicalSponsor from "./pages/committees/TechnicalSponsor";
+import Otcon2 from "./pages/Otcon2";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
+          <Route path="/otcon2" element={<Otcon2 />} />
           <Route path="conference-schedule" element={<ConfSchedule />} />
           <Route path="registration" element={<Registration />} />
           <Route path="/callforpapper/">

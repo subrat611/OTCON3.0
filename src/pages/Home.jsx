@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AboutSection from "../components/AboutSection";
 import ConfSponsors from "../components/ConfSponsors";
 import ConfTrackSection from "../components/ConfTrackSection";
@@ -37,40 +38,44 @@ export default function Home() {
         <AboutSection>
           <h2 className="title">About Previous Conference</h2>
           <div className="badge-wrapper">
-            <p className="badge-previous-conf-mob-otcon">
-              OTCON 2.0{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="ionicon"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M208 352h-64a96 96 0 010-192h64M304 160h64a96 96 0 010 192h-64M163.29 256h187.42"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="36"
-                />
-              </svg>
-            </p>
-            <p className="badge-previous-conf-mob-eti">
-              ETI 2021{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="ionicon"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M208 352h-64a96 96 0 010-192h64M304 160h64a96 96 0 010 192h-64M163.29 256h187.42"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="36"
-                />
-              </svg>
-            </p>
+            <Link to="otcon2">
+              <p className="badge-previous-conf-mob-otcon">
+                OTCON 2.0{" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="ionicon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M208 352h-64a96 96 0 010-192h64M304 160h64a96 96 0 010 192h-64M163.29 256h187.42"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="36"
+                  />
+                </svg>
+              </p>
+            </Link>
+            <Link to="/eti2021">
+              <p className="badge-previous-conf-mob-eti">
+                ETI 2021{" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="ionicon"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M208 352h-64a96 96 0 010-192h64M304 160h64a96 96 0 010 192h-64M163.29 256h187.42"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="36"
+                  />
+                </svg>
+              </p>
+            </Link>
           </div>
         </AboutSection>
       </div>

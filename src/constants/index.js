@@ -816,3 +816,67 @@ export const contactusMember = [
     mobile: "+91 9413712299",
   },
 ];
+
+import otconImg1 from "../assets/previous-otcon/1.png";
+import otconImg2 from "../assets/previous-otcon/2.png";
+import otconImg3 from "../assets/previous-otcon/3.png";
+import otconImg4 from "../assets/previous-otcon/4.png";
+import otconImg5 from "../assets/previous-otcon/5.png";
+import otconImg6 from "../assets/previous-otcon/6.png";
+import otconImg7 from "../assets/previous-otcon/7.png";
+import otconImg8 from "../assets/previous-otcon/8.png";
+import otconImg9 from "../assets/previous-otcon/9.png";
+import otconImg10 from "../assets/previous-otcon/10.png";
+import otconImg11 from "../assets/previous-otcon/11.png";
+import otconImg12 from "../assets/previous-otcon/12.png";
+import otconImg13 from "../assets/previous-otcon/13.png";
+import otconImg14 from "../assets/previous-otcon/14.png";
+import otconImg15 from "../assets/previous-otcon/15.png";
+
+export const otcon2Imgs = [
+  {
+    img: otconImg1,
+  },
+  {
+    img: otconImg2,
+  },
+  {
+    img: otconImg3,
+  },
+  {
+    img: otconImg4,
+  },
+  {
+    img: otconImg5,
+  },
+  {
+    img: otconImg6,
+  },
+  {
+    img: otconImg7,
+  },
+  {
+    img: otconImg8,
+  },
+  {
+    img: otconImg9,
+  },
+  {
+    img: otconImg10,
+  },
+  {
+    img: otconImg11,
+  },
+  {
+    img: otconImg12,
+  },
+  {
+    img: otconImg13,
+  },
+  {
+    img: otconImg14,
+  },
+  {
+    img: otconImg15,
+  },
+];
