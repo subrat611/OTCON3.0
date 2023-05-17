@@ -1,80 +1,29 @@
-.badge-previous-confot {
-  position: fixed;
-  right: -1.5%;
-  top: 34%;
-  color: #000;
-  z-index: 1;
-  font-size: 1.1rem;
-  rotate: 90deg;
-  background-color: #fff;
-  padding: 0 0.5rem;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-
-  svg {
-    height: 20px;
-    margin-left: 0.2rem;
-    rotate: -20deg;
-  }
-}
-
-.badge-previous-confeti {
-  position: fixed;
-  right: -0.8%;
-  top: 20%;
-  color: #000;
-  z-index: 1;
-  font-size: 1.1rem;
-  rotate: 90deg;
-  background-color: #fff;
-  padding: 0 0.5rem;
-  border-radius: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-
-  svg {
-    height: 20px;
-    margin-left: 0.2rem;
-    rotate: -20deg;
-  }
-}
-
 .about-previos-section {
-  display: none;
-}
+  .badge-wrapper {
+    display: flex;
+    justify-content: center;
 
-@media all and (max-width: 1217px) {
-  .about-previos-section {
-    display: block;
+    .badge-previous-conf-mob-otcon {
+      margin-right: 1rem;
+    }
 
-    .badge-wrapper {
+    .badge-previous-conf-mob-otcon,
+    .badge-previous-conf-mob-eti {
+      font-size: 1.1rem;
+      width: max-content;
+      background-color: #fff;
+      padding: 0.3rem 1rem;
+      border-radius: 50px;
+      cursor: pointer;
       display: flex;
-      justify-content: space-evenly;
-      .badge-previous-conf-mob-otcon,
-      .badge-previous-conf-mob-eti {
-        font-size: 1.1rem;
-        width: max-content;
-        background-color: #fff;
-        padding: 0.3rem 1rem;
-        border-radius: 50px;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      justify-content: center;
+      align-items: center;
 
-        svg {
-          height: 20px;
-          margin-left: 0.2rem;
-          rotate: -20deg;
-        }
+      svg {
+        height: 20px;
+        margin-left: 0.2rem;
+        rotate: -20deg;
       }
     }
-  }
-  .badge-previous-confeti,
-  .badge-previous-confot {
-    display: none;
   }
 }
