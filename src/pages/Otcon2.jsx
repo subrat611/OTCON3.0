@@ -8,9 +8,8 @@ export default function Otcon2() {
   return (
     <Wrapper>
       <h1 className="title">
-        Second IEEE Sponsored 2022 OPJU International Technology Conference on
-        Emerging Technologies for Sustainable Development (OTCON) (8-10 Feb,
-        2023)
+        2022 OPJU International Technology Conference on Emerging Technologies
+        for Sustainable Development (OTCON) (8-10 Feb, 2023)
       </h1>
       <div className="otcon2-wrapper">
         <h2>Publication Link</h2>

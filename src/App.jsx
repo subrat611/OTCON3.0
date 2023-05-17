@@ -11,6 +11,7 @@ import ExtendedCommittees from "./pages/committees/ExtendedCommittees";
 import Contactus from "./pages/Contactus";
 import TechnicalSponsor from "./pages/committees/TechnicalSponsor";
 import Otcon2 from "./pages/Otcon2";
+import Eti from "./pages/Eti";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
           <Route path="/otcon2" element={<Otcon2 />} />
+          <Route path="/eti2021" element={<Eti />} />
           <Route path="conference-schedule" element={<ConfSchedule />} />
           <Route path="registration" element={<Registration />} />
           <Route path="/callforpapper/">

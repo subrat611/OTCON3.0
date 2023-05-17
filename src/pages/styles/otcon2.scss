@@ -35,6 +35,15 @@
     color: #ffffffe3;
     font-size: 1.1rem;
   }
+  ul {
+    padding: 0 2%;
+    li {
+      list-style: disc;
+      color: #ffffffe3;
+      font-size: 1.1rem;
+      line-height: 2rem;
+    }
+  }
 
   .otcon2-img-wrapper {
     margin-top: 2rem;

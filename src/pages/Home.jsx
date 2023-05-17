@@ -36,11 +36,11 @@ export default function Home() {
 
       <div className="about-previos-section">
         <AboutSection>
-          <h2 className="title">About Previous Conference</h2>
+          <h2 className="title">Our Previous Conferences</h2>
           <div className="badge-wrapper">
             <Link to="otcon2">
               <p className="badge-previous-conf-mob-otcon">
-                OTCON 2.0{" "}
+                OTCON 2022{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="ionicon"

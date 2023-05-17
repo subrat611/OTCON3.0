@@ -880,3 +880,43 @@ export const otcon2Imgs = [
     img: otconImg15,
   },
 ];
+
+import eti1 from "../assets/previous-eti/1.png";
+import eti2 from "../assets/previous-eti/2.png";
+import eti3 from "../assets/previous-eti/3.png";
+import eti4 from "../assets/previous-eti/4.png";
+import eti5 from "../assets/previous-eti/5.png";
+import eti6 from "../assets/previous-eti/6.png";
+import eti7 from "../assets/previous-eti/7.png";
+import eti8 from "../assets/previous-eti/8.png";
+import eti9 from "../assets/previous-eti/9.png";
+
+export const etiImgs = [
+  {
+    img: eti1,
+  },
+  {
+    img: eti2,
+  },
+  {
+    img: eti3,
+  },
+  {
+    img: eti4,
+  },
+  {
+    img: eti5,
+  },
+  {
+    img: eti6,
+  },
+  {
+    img: eti7,
+  },
+  {
+    img: eti8,
+  },
+  {
+    img: eti9,
+  },
+];
