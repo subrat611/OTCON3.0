@@ -1,3 +1,10 @@
+.subtitle {
+  padding: 0 5%;
+  color: #ffffffe3;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1;
+}
 .tpc-wrapper {
   .title-2 {
     padding: 2rem 0.5rem;
@@ -24,7 +31,7 @@
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  } 
+  }
   .swiper {
     margin-top: 1rem;
     width: 100%;
