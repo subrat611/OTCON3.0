@@ -587,6 +587,10 @@ export const technicalSponsorCommittees = [
 import Arti from "../assets/oc/artivaish.png";
 import Amit from "../assets/oc/amit.png";
 import Shukla from "../assets/oc/shukla.png";
+import Saroj from "../assets/oc/saroj.png";
+import Abhilasha from "../assets/oc/abhilasha.png";
+import Avimanyu from "../assets/oc/avimanyu.png";
+import Gulshan from "../assets/oc/gulshan.png";
 
 export const organizingCommittees = [
   {
@@ -627,11 +631,12 @@ export const organizingCommittees = [
   {
     name: "Dr. Saroj Chandra",
     subtitle: "Organizing Secretaries",
-    img: "https://www.opjuieeeotc.in/_nuxt/img/5.5fac84a.png",
+    img: Saroj,
   },
   {
     name: "Dr. Gulshan Soni",
     subtitle: "Joint Secretaries",
+    img: Gulshan,
   },
   {
     name: "Dr. Rakesh Nayak",
@@ -651,11 +656,12 @@ export const organizingCommittees = [
   {
     name: "Mr. Avimanyu Singh",
     subtitle: "Finance Chair",
+    img: Avimanyu,
   },
   {
     name: "Dr. Abhilasha Chaudhuri",
     subtitle: "Web Chair",
-    img: "https://www.opjuieeeotc.in/_nuxt/img/4.f72d18e.png",
+    img: Abhilasha,
   },
 ];
 

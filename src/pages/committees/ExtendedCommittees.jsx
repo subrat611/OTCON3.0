@@ -11,7 +11,7 @@ export default function ExtendedCommittees() {
       <h1 className="title">Extended Support Committees</h1>
 
       <div className="student-wrapper">
-        <h2 className="std-title">OPJU Student Branch</h2>
+        <h2 className="std-title">About IEEE Student Chapter</h2>
         <p className="std-para">
           An IEEE Student Branch provides opportunities to meet and learn from
           fellow IEEE Student and Graduate Student Members and engage with
