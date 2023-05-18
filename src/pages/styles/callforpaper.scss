@@ -1,0 +1,77 @@
+.link-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  button {
+    margin: 0.5rem 1rem;
+    font-weight: normal;
+  }
+}
+
+.callfor-paper-wrapper {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  padding: 2% 5%;
+
+  .callfor-paper-left-content {
+    flex: 1;
+    h1 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+    }
+    p {
+      color: #fff;
+    }
+    .step-title {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+    .step-details {
+      font-size: 1.1rem;
+      padding: 0.5rem 0;
+    }
+    .callfor-paper-badge {
+      color: #fff;
+      margin: 1rem 0;
+      background-color: rgba(56, 211, 231, 0.699);
+      padding: 1rem;
+      border-radius: 3px;
+      font-size: 1.3rem;
+      a {
+        color: rgb(50, 51, 148);
+        font-size: 1.3rem;
+      }
+    }
+
+    .callfor-paper-list {
+      li {
+        list-style: disc;
+        padding: 0.5rem;
+      }
+      padding: 1rem 2rem;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  }
+
+  .callfor-paper-right-content {
+    flex: 1;
+    h1 {
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #fff;
+    }
+    a {
+      color: rgb(117, 119, 231);
+    }
+  }
+}

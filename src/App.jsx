@@ -13,6 +13,8 @@ import TechnicalSponsor from "./pages/committees/TechnicalSponsor";
 import Otcon2 from "./pages/Otcon2";
 import Eti from "./pages/Eti";
 import Keynote from "./pages/Keynote";
+import Callforpaper from "./pages/Callforpaper";
+import Cameraready from "./pages/Cameraready";
 
 function App() {
   return (
@@ -24,12 +26,15 @@ function App() {
           <Route path="/eti2021" element={<Eti />} />
           <Route path="conference-schedule" element={<ConfSchedule />} />
           <Route path="registration" element={<Registration />} />
-          <Route path="/callforpapper/">
-            <Route
-              path="instruction-for-author"
-              element={<AuthorInstruction />}
-            />
-          </Route>
+          <Route path="/callforpapper/" element={<Callforpaper />}></Route>
+          <Route
+            path="/callforpapper/instruction-for-author"
+            element={<AuthorInstruction />}
+          />
+          <Route
+            path="/callforpapper/camera-ready-submission"
+            element={<Cameraready />}
+          />
           <Route path="/committees/">
             <Route
               path="technical-program-committees"

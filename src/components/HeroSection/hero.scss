@@ -107,6 +107,15 @@
     justify-content: center;
     align-items: center;
 
+    .iee-logo {
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      // transform: translate(-50%);
+      height: 50px;
+      z-index: 1000;
+    }
+
     .hero-title {
       letter-spacing: 0.05em;
       font-size: 4rem;

@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import CountDownTimer from "../CountDownTimer";
+
+import iee from "../../assets/icons/ieee-logo.png";
+
 import "./hero.scss";
 
 export default function HeroSection() {
@@ -56,6 +59,7 @@ export default function HeroSection() {
       </div>
       <div className="gradient-bg-top"></div>
       <div className="hero-content">
+        <img src={`${iee}`} className="iee-logo" />
         <h1 className="hero-title">
           OTCON <span className="title-green">3.0</span>
         </h1>

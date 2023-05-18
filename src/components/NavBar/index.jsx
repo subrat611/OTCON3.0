@@ -66,10 +66,13 @@ export default function NavBar() {
             <Link to="/registration">Registration</Link>
           </li>
           <li>
-            <Link onClick={() => handleToggleMenu("callforpaper")}>
+            <Link
+              to="/callforpapper"
+              // onClick={() => handleToggleMenu("callforpaper")}
+            >
               Call for papers
             </Link>
-            {toggleDropMenu.callforpaper && (
+            {/* {toggleDropMenu.callforpaper && (
               <ul className="drop-down-menu">
                 <li>
                   <Link
@@ -80,7 +83,7 @@ export default function NavBar() {
                   </Link>
                 </li>
               </ul>
-            )}
+            )} */}
           </li>
           <li>
             <Link onClick={() => handleToggleMenu("committees")}>
@@ -168,10 +171,14 @@ export default function NavBar() {
               <Link to="/registration">Registration</Link>
             </li>
             <li>
-              <Link onClick={() => handleToggleMenu("callforpaper")}>
+              <Link
+                to="/callforpapper/"
+                // onClick={() => handleToggleMenu("callforpaper")}
+                onClick={handleToggleNav}
+              >
                 Call for papers
               </Link>
-              {toggleDropMenu.callforpaper && (
+              {/* {toggleDropMenu.callforpaper && (
                 <ul className="drop-down-mob-menu">
                   <li>
                     <Link
@@ -182,7 +189,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                 </ul>
-              )}
+              )} */}
             </li>
             <li>
               <Link onClick={() => handleToggleMenu("committees")}>
