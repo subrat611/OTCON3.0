@@ -120,9 +120,9 @@ export default function NavBar() {
                     Extended Support Committees
                   </Link>
                 </li>
-                <li onClick={handleToggleMenu}>
+                {/* <li onClick={handleToggleMenu}>
                   Conference Execution Committees
-                </li>
+                </li> */}
               </ul>
             )}
           </li>
@@ -222,9 +222,9 @@ export default function NavBar() {
                       Extended Support Committees
                     </Link>
                   </li>
-                  <li onClick={handleToggleAll}>
+                  {/* <li onClick={handleToggleAll}>
                     Conference Execution Committees
-                  </li>
+                  </li> */}
                 </ul>
               )}
             </li>
