@@ -21,9 +21,19 @@ export default function Cameraready() {
           <p className="step-details">
             Please follow the IEEE two-column A4 size standard conference format
             for preparing your final manuscript also. For more details please
-            visit: the IEEE Templates page here. A soft-copy of the full-length
-            manuscripts in IEEE double-column format should be submitted
-            electronically via Easy Chair through this Link
+            visit: the IEEE Templates page{" "}
+            <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/Conference-template-A4.doc">
+              here.
+            </a>
+            <br /> A soft-copy of the full-length manuscripts in IEEE
+            double-column format should be submitted electronically via Easy
+            Chair through this{" "}
+            <a
+              href="https://easychair.org/account/signin?l=Yiji0MD0xxsWNRpo6y0oZt"
+              target="_blank"
+            >
+              Link
+            </a>
           </p>
           <Divider />
           <p className="step-details">
@@ -53,8 +63,10 @@ export default function Cameraready() {
             account in Pdf eXpress, click on the link “New Users – Click Here”
             and fill in your information (email address and password). If you
             are not familiar with Pdf eXpress you can get detailed instructions
-            on using IEEE PDF eXpress at:
-            https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress
+            on using IEEE PDF eXpress at: <br />
+            <a href="https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress">
+              https://ieee-pdf-express.org/External/UsingIEEEPDFeXpress
+            </a>
           </p>
         </div>
         <Divider />
