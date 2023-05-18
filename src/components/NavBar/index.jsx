@@ -130,7 +130,7 @@ export default function NavBar() {
             <Link to="/advisory-board">Advisory Board</Link>
           </li>
           <li>
-            <Link to="/404">Keynote speaker</Link>
+            <Link to="/keynote-speaker">Keynote speaker</Link>
           </li>
           <li>
             <Link to="/contactus">Contact us</Link>
@@ -228,11 +228,15 @@ export default function NavBar() {
                 </ul>
               )}
             </li>
-            <li onClick={handleToggleNav}>
-              <Link to="/advisory-board">Advisory Board</Link>
+            <li>
+              <Link to="/advisory-board" onClick={handleToggleNav}>
+                Advisory Board
+              </Link>
             </li>
-            <li onClick={handleToggleNav}>
-              <Link to="/404">Keynote speaker</Link>
+            <li>
+              <Link to="/keynote-speaker" onClick={handleToggleNav}>
+                Keynote speaker
+              </Link>
             </li>
             <li>
               <Link to="/contactus" onClick={handleToggleNav}>

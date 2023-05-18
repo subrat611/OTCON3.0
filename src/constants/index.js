@@ -920,3 +920,46 @@ export const etiImgs = [
     img: eti9,
   },
 ];
+
+import k1 from "../assets/keynote/1.png";
+import k2 from "../assets/keynote/2.png";
+import k3 from "../assets/keynote/3.png";
+import k4 from "../assets/keynote/4.png";
+import k5 from "../assets/keynote/5.png";
+import k6 from "../assets/keynote/6.png";
+
+export const keynote = [
+  {
+    name: "Dr. NISHU GUPTA (SMIEEE)",
+    subtitle: "Department of Informatics, University of Fribourg, Switzerland.",
+    img: k1,
+  },
+  {
+    name: "Dr. ASHISH SETH",
+    subtitle:
+      "Professor at School of Global Convergence Studies, Inha University, South Korea",
+    img: k2,
+  },
+  {
+    name: "Dr. FAZ RAHMAN (Life-Fellow IEEE)",
+    subtitle:
+      "University of New South Wales, Sydney, New South Wales, Australia.",
+    img: k3,
+  },
+  {
+    name: "Dr. NITISH KUMAR OJHA",
+    subtitle: "University of Stirling, UAE.",
+    img: k4,
+  },
+  {
+    name: "Prof. (Dr) PRIYADARSAN PATRA (SMIEEE)",
+    subtitle:
+      "(Ph.D., The University of Texas at Austin | ex Intel Chief Architect, USA) IE Fellow | IETE Fellow Distinguished Professor and Pro Vice-Chancellor, DIT University, India",
+    img: k5,
+  },
+  {
+    name: "Dr. RAJKUMAR SINGH RATHORE (SMIEEE)",
+    subtitle: "Cardiff Metropolitan University, Western Ave, United Kingdom",
+    img: k6,
+  },
+];

@@ -12,6 +12,7 @@ import Contactus from "./pages/Contactus";
 import TechnicalSponsor from "./pages/committees/TechnicalSponsor";
 import Otcon2 from "./pages/Otcon2";
 import Eti from "./pages/Eti";
+import Keynote from "./pages/Keynote";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             />
           </Route>
           <Route path="advisory-board" element={<AdvisoryBoard />} />
+          <Route path="keynote-speaker" element={<Keynote />} />
           <Route path="contactus" element={<Contactus />} />
         </Route>
       </Routes>
