@@ -144,9 +144,9 @@ export const confTrack = [
 
 export const RegistrationFee = {
   thead: [
-    {
-      th: ["Early Bird (30th Nov, 2022)", "", "", "", ""],
-    },
+    // {
+    //   th: ["Early Bird (30th Nov, 2022)", "", "", "", ""],
+    // },
     {
       th: ["Category", "Active IEEE member", "", "Non IEEE member", ""],
     },
@@ -155,24 +155,24 @@ export const RegistrationFee = {
     },
   ],
   tableBody: [
-    {
-      data: [
-        "Full-time student/Research scholar",
-        "₹4000",
-        "$75",
-        "₹5000",
-        "$80",
-      ],
-    },
-    {
-      data: ["Academician", "₹5000", "$80", "₹6000", "$90"],
-    },
-    {
-      data: ["Industry", "₹7000", "$110", "₹8000", "$125"],
-    },
-    {
-      data: ["Regular (31st Jan, 2023)", "", "", "", ""],
-    },
+    // {
+    //   data: [
+    //     "Full-time student/Research scholar",
+    //     "₹4000",
+    //     "$75",
+    //     "₹5000",
+    //     "$80",
+    //   ],
+    // },
+    // {
+    //   data: ["Academician", "₹5000", "$80", "₹6000", "$90"],
+    // },
+    // {
+    //   data: ["Industry", "₹7000", "$110", "₹8000", "$125"],
+    // },
+    // {
+    //   data: ["Regular (31st Jan, 2023)", "", "", "", ""],
+    // },
     {
       data: [
         "Full-time student/Research scholar",
