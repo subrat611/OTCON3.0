@@ -591,6 +591,7 @@ import Saroj from "../assets/oc/saroj.png";
 import Abhilasha from "../assets/oc/abhilasha.png";
 import Avimanyu from "../assets/oc/avimanyu.png";
 import Gulshan from "../assets/oc/gulshan.png";
+import Bhupesh from "../assets/oc/bhupesh.png";
 
 export const organizingCommittees = [
   {
@@ -611,7 +612,7 @@ export const organizingCommittees = [
   {
     name: "Dr. Bhupesh Kumar Dewangan",
     subtitle: "Convener",
-    img: "https://www.opjuieeeotc.in/_nuxt/img/2.fceedd8.png",
+    img: Bhupesh,
   },
   {
     name: "Dr. Arti Vaish",
