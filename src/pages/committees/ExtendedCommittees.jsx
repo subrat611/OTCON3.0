@@ -2,6 +2,8 @@ import Wrapper from "../../Layouts/Wrapper";
 
 import { extendedSupportCommittees } from "../../constants";
 
+import princy from "../../assets/princy_mishra.png";
+
 import "../styles/page.style.css";
 import "../styles/extendedcommittees.scss";
 
@@ -31,6 +33,12 @@ export default function ExtendedCommittees() {
           outreach programs, conferences, local Section or Regional
           opportunities, etc. can help develop a record of accomplishment and
           capabilities beyond the norm.
+        </p>
+
+        <h2 className="std-title">Grant and support</h2>
+        <p className="std-para">
+          The university's IEEE students chapter offers a 70% grant to students
+          upon membership enrollment.
         </p>
 
         <h3>Benefits of Forming an IEEE Student Branch</h3>
@@ -136,6 +144,27 @@ export default function ExtendedCommittees() {
           engagement and satisfaction, and consequently gain enough momentum to
           create fully sustainable YP Affinity Groups.
         </p>
+      </div>
+
+      <div className="esc-wrapper">
+        <h2 className="title-2">Student Faculty Co-ordinator</h2>
+        <div className="oc-swiper-slide-card">
+          <div className="oc-card-content">
+            <p className="oc-card-name">PROF. PRINCY DIWAN</p>
+            <div>
+              <p className="oc-card-subtitle">
+                Email:{" "}
+                <a href="mailto:princy.diwan@opju.ac.in">
+                  princy.diwan@opju.ac.in
+                </a>
+              </p>
+              <p className="oc-card-subtitle">Mobile no: +91 8770791199</p>
+            </div>
+          </div>
+          <div className="oc-member-img">
+            <img src={princy} alt="image" />
+          </div>
+        </div>
       </div>
 
       {extendedSupportCommittees.map(({ title, members }, i) => (

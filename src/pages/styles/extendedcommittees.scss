@@ -1,3 +1,61 @@
+.oc-swiper-slide-card {
+  margin: 1rem;
+  width: 30%;
+  margin: 0 auto 3rem auto;
+  height: 230px;
+  border: 1px solid rgba(139, 139, 139, 0.329);
+  border-radius: 13px;
+  padding: 1.5rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: rgba(24, 24, 24, 0.329);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  .oc-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .oc-member-img {
+    height: 85%;
+    aspect-ratio: 1/1;
+    align-self: center;
+    justify-self: flex-start;
+    margin-right: 1rem;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .oc-card-no {
+    position: absolute;
+    top: -1%;
+    right: 3%;
+    font-size: 2.2rem;
+    font-family: "Bruno Ace", cursive;
+    opacity: 0.2;
+  }
+
+  .oc-card-name,
+  .oc-card-subtitle {
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+    a {
+      color: rgb(94, 94, 255);
+    }
+  }
+
+  .oc-card-name {
+    padding-right: 4rem;
+  }
+}
+
 .student-wrapper {
   padding: 0 5%;
 
@@ -48,6 +106,32 @@
       color: #ffffffe3;
       font-size: 1.1rem;
       line-height: 2rem;
+    }
+  }
+}
+
+@media all and (max-width: 1217px) {
+  .oc-swiper-slide-card {
+    width: 80%;
+    height: 400px;
+    flex-direction: column;
+
+    .oc-member-img {
+      height: 50%;
+      margin: 0;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .oc-card-no {
+      top: 1%;
+      font-size: 1.56rem;
+    }
+
+    .oc-card-name {
+      padding-right: 0;
     }
   }
 }
