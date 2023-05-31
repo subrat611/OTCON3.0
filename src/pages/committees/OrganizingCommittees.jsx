@@ -1,6 +1,5 @@
 import Wrapper from "../../Layouts/Wrapper";
 import { organizingCommittees } from "../../constants";
-import { generateMembers } from "../../utils/generateMembers";
 
 import "../styles/page.style.css";
 import "../styles/organizingcommittee.scss";

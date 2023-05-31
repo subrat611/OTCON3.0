@@ -13,7 +13,7 @@
     .oc-swiper-slide-card {
       margin: 1rem;
       width: 30%;
-      height: 230px;
+      // height: 230px;
       border: 1px solid rgba(139, 139, 139, 0.329);
       border-radius: 13px;
       padding: 1.5rem 1rem;
@@ -60,6 +60,18 @@
 
       .oc-card-name {
         padding-right: 4rem;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1652px) {
+  .organizing-committee-wrapper {
+    .oc-swiper {
+      .oc-swiper-slide-card {
+        .oc-card-name {
+          font-size: 1rem;
+        }
       }
     }
   }

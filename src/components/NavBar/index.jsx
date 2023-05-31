@@ -85,7 +85,7 @@ export default function NavBar() {
               </ul>
             )} */}
           </li>
-          <li>
+          {/* <li>
             <Link onClick={() => handleToggleMenu("committees")}>
               Committees
             </Link>
@@ -123,11 +123,11 @@ export default function NavBar() {
                     Extended Support Committees
                   </Link>
                 </li>
-                {/* <li onClick={handleToggleMenu}>
-                  Conference Execution Committees
-                </li> */}
               </ul>
             )}
+          </li> */}
+          <li>
+            <Link to="/organizing-committee">Organizing Committee</Link>
           </li>
           <li>
             <Link to="/advisory-board">Advisory Board</Link>
@@ -191,7 +191,7 @@ export default function NavBar() {
                 </ul>
               )} */}
             </li>
-            <li>
+            {/* <li>
               <Link onClick={() => handleToggleMenu("committees")}>
                 Committees
               </Link>
@@ -229,11 +229,13 @@ export default function NavBar() {
                       Extended Support Committees
                     </Link>
                   </li>
-                  {/* <li onClick={handleToggleAll}>
-                    Conference Execution Committees
-                  </li> */}
                 </ul>
               )}
+            </li> */}
+            <li>
+              <Link to="/organizing-committee" onClick={handleToggleNav}>
+                Organizing Committee
+              </Link>
             </li>
             <li>
               <Link to="/advisory-board" onClick={handleToggleNav}>

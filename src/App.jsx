@@ -15,6 +15,7 @@ import Eti from "./pages/Eti";
 import Keynote from "./pages/Keynote";
 import Callforpaper from "./pages/Callforpaper";
 import Cameraready from "./pages/Cameraready";
+import OrganizingCommittee from "./pages/OrganizingCommittee";
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
             path="/callforpapper/camera-ready-submission"
             element={<Cameraready />}
           />
-          <Route path="/committees/">
+          {/* <Route path="/committees/">
             <Route
               path="technical-program-committees"
               element={<TechnicalProgramCommittees />}
@@ -52,7 +53,11 @@ function App() {
               path="extended-support-committees"
               element={<ExtendedCommittees />}
             />
-          </Route>
+          </Route> */}
+          <Route
+            path="organizing-committee"
+            element={<OrganizingCommittee />}
+          />
           <Route path="advisory-board" element={<AdvisoryBoard />} />
           <Route path="keynote-speaker" element={<Keynote />} />
           <Route path="contactus" element={<Contactus />} />

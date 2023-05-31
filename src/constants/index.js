@@ -19,7 +19,7 @@ export const confTrack = [
       "Cloud Computing",
       "Grid and Cluster Computing",
       "Distributed Systems and Applications",
-      "Pervasive/Ubiquitous Computing &amp; Intelligence",
+      "Pervasive/Ubiquitous Computing and Intelligence",
       "Distributed AI and Soft/Natural Computing",
       "Power-Efficient and Green Computing Systems",
       "Parallel and Distributed Computing for Big Data",
@@ -58,8 +58,8 @@ export const confTrack = [
       "Agriculture: New areas and solutions",
       "Internet of things for Education sector",
       "Devices and product development, applications areas",
-      "The Convergence of Construction &amp; Manufacturing",
-      "Machine Learning &amp; AI : Smart Manufacturing",
+      "The Convergence of Construction and Manufacturing",
+      "Machine Learning and AI : Smart Manufacturing",
       "Industry standard in Retails sectors and Security",
       "Predictive maintenance, optimization and human resource management",
       "Automotive, Intelligent Transport - world scenario",
@@ -124,7 +124,7 @@ export const confTrack = [
       "Intelligent signal processing",
       "Speech and Audio Processing",
       "Biomedical Signal Processing",
-      "Pattern Analysis &amp; Classification",
+      "Pattern Analysis and Classification",
       "Medical image processing",
       "Adaptive Signal Processing",
       "Sensor Array and Multidimensional Signal Processing",
@@ -593,24 +593,187 @@ import Avimanyu from "../assets/oc/avimanyu.png";
 import Gulshan from "../assets/oc/gulshan.png";
 import Bhupesh from "../assets/oc/bhupesh.png";
 
+export const allOrganizingcommittees = [
+  {
+    heading: "Chief Patrons",
+    members: [
+      {
+        name: "Mr. Naveen Jindal, Chairman, Jindal Group of Companies.",
+        img: "https://www.opjuieeeotc.in/_nuxt/img/13.daf3db2.png",
+      },
+    ],
+  },
+  {
+    heading: "Patrons",
+    members: [
+      {
+        name: "Ms. Shallu Jindal, Chancellor, OP Jindal University, Raigarh, India.",
+        img: "https://www.opjuieeeotc.in/_nuxt/img/10.75422ad.png",
+      },
+    ],
+  },
+  {
+    heading: "General Chair",
+    members: [
+      {
+        name: "Dr. R.D. Patidar, Vice Chancellor, OP Jindal University, Raigarh, India.",
+        img: "https://www.opjuieeeotc.in/_nuxt/img/12.a7e427f.png",
+      },
+    ],
+  },
+  {
+    heading: "Convener",
+    members: [
+      {
+        name: "Dr. Bhupesh Kumar Dewangan, Associate Professor, Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+        img: Bhupesh,
+      },
+    ],
+  },
+  {
+    heading: "Steering Committee",
+    members: [
+      {
+        name: "Dr. M. Kalyan Phani, Director, Research and Development Center, OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Dr. Arti Vaish, Professor, Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+        img: Arti,
+      },
+      {
+        name: "Dr. Gulshan Soni, Sr. Asst. Prof., Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+        img: Gulshan,
+      },
+      {
+        name: "Dr. G.M Rao, Professor, Dept. of Electrical Engineering, OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Dr. Sandip Biswal, Asst. Prof., Dept. of Electrical Engineering, OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Dr. Deeptimayi Swain, Asst. Prof., Dept. of Electrical Engineering, OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Prof. Asim Kiran Dandapat, Sr. Asst. Prof., Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Prof. Princy Diwan, Asst. Prof., Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+    ],
+  },
+  {
+    heading: "Publication Chair",
+    members: [
+      {
+        name: "Dr. Rakesh Nayak, Professor and Head, Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Dr. Ram Narayan Shukla, Sr. Asst. Prof., Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+    ],
+  },
+  {
+    heading: "Chair of Technical Program Committee",
+    members: [
+      {
+        name: "Dr. Amit Jain, Professor, Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Dr. Saroj Chandra, Sr. Asst. Prof., Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+    ],
+  },
+  {
+    heading: "Section Oversight Committee",
+    members: [
+      {
+        name: "Dr. Vivek Tiwari, (Member IEEE MP Section), IIIT New Raipur, India",
+      },
+      {
+        name: "Dr. Dilip Singh Sisodia, Associate Prof. and Head, Dept. of Computer Science and Engineering, NIT, Raipur, India.",
+      },
+    ],
+  },
+  {
+    heading: "Finance Chair",
+    members: [
+      {
+        name: "Mr. Avimanyu Singh, Head, Account and Finance, OP Jindal University, Raigarh, India.",
+      },
+    ],
+  },
+  {
+    heading: "Publicity Chairs",
+    members: [
+      {
+        name: "Dr. Sanjay Singh, Professor, Dept. of Humanities, OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Mr. Anup Kumar Bharti, Asst. Manager, OP Jindal University, Raigarh, India.",
+      },
+    ],
+  },
+  {
+    heading: "Web and IT Chairs",
+    members: [
+      {
+        name: "Dr. Abholasha Chaudhuri, Asst. Prof., Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Mr. Hari Patel, OP Jindal University, Raigarh, India.",
+      },
+      {
+        name: "Mr. Subrat Jena, OP Jindal University, Raigarh, India.",
+      },
+    ],
+  },
+  {
+    heading: "TPC Members",
+    members: [
+      {
+        name: "Ms. Shreya Gupta, Apple Inc., USA",
+      },
+      {
+        name: "Dr. Ravi Tomar, Persistant",
+      },
+      {
+        name: "Dr. Gulistan Raja, UET Taxila",
+      },
+      {
+        name: "Dr. Nitish Kumar Ojha, University Of Stirling, UK-UAE",
+      },
+      {
+        name: "Dr. Rajkumar Singh Rathore, Cardiff Metropolitan University, Cardiff, United Kingdom",
+      },
+      {
+        name: "Dr. Faz Rahman, University of New South Wales, Sydney, Australia",
+      },
+      {
+        name: "Dr. Ariffuddin Joret, Universiti Tun Hussein Onn, Malaysia",
+      },
+    ],
+  },
+];
+
 export const organizingCommittees = [
   {
-    name: "Mr. Naveen Jindal",
+    name: "Mr. Naveen Jindal, Chairman, Jindal Group of Companies.",
     subtitle: "Chief Patron",
     img: "https://www.opjuieeeotc.in/_nuxt/img/13.daf3db2.png",
   },
   {
-    name: "Ms. Shallu Jindal",
+    name: "Ms. Shallu Jindal, Chancellor, OP Jindal University, Raigarh, India.",
     subtitle: "Patron",
     img: "https://www.opjuieeeotc.in/_nuxt/img/10.75422ad.png",
   },
   {
-    name: "Dr. R.D. Patidar",
-    subtitle: "Chairman",
+    name: "Dr. R.D. Patidar, Vice Chancellor, OP Jindal University, Raigarh, India.",
+    // subtitle: "Chairman",
+    subtitle: "General Chair",
     img: "https://www.opjuieeeotc.in/_nuxt/img/12.a7e427f.png",
   },
   {
-    name: "Dr. Bhupesh Kumar Dewangan",
+    name: "Dr. Bhupesh Kumar Dewangan, Associate Professor, Dept. of Computer Science and Engg., OP Jindal University, Raigarh, India.",
     subtitle: "Convener",
     img: Bhupesh,
   },
