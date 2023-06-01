@@ -7,7 +7,7 @@ import {
 } from "../constants";
 
 import "./styles/page.style.css";
-import "./styles/organizingcommittee.scss";
+import "./styles/oc.scss";
 
 export default function OrganizingCommittee() {
   const keys = Object.keys(allOrganizingcommittees);
@@ -15,32 +15,33 @@ export default function OrganizingCommittee() {
     <Wrapper>
       <h1 className="title">Organizing Committee</h1>
       {allOrganizingcommittees.map(({ heading, members }, i) => (
-        <div key={i}>
-          <h2 className="title">{heading}</h2>
-          <div className="organizing-committee-wrapper">
-            <div className="oc-swiper">
-              {members.map(({ name, img, subtitle }, idx) => (
-                <div className="oc-swiper-slide-card" key={idx}>
-                  <div className="oc-card-content">
-                    <p className="oc-card-no">{idx + 1}</p>
-                    <p className="oc-card-name">{name}</p>
-                    <div>
-                      <p className="oc-card-subtitle">{subtitle}</p>
-                    </div>
-                  </div>
-                  {img && (
-                    <div className="oc-member-img">
-                      <img src={`${img}`} alt="image" />
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
+        <div key={i} className="oc-card">
+          <h2 className="heading">{heading}</h2>
+          {members.map((item, index) => (
+            <p className="oc-card-name" key={index}>
+              {item.name}
+            </p>
+          ))}
         </div>
       ))}
-      <div>
-        <h2 className="title">TPC Members</h2>
+      <div className="oc-card">
+        <h2 className="heading">TPC Members</h2>
+        {tpcMembers.map((item, idx) => (
+          <p className="oc-card-name" key={idx}>
+            {item}
+          </p>
+        ))}
+      </div>
+      <div className="oc-card">
+        <h2 className="heading">Extended Support Committee</h2>
+        {extendedSupportMembers.map((item, idx) => (
+          <p className="oc-card-name" key={idx}>
+            {item}
+          </p>
+        ))}
+      </div>
+
+      {/* <h2 className="title">TPC Members</h2>
         <div className="organizing-committee-wrapper">
           <div className="oc-swiper">
             {tpcMembers.map((item, idx) => (
@@ -52,9 +53,8 @@ export default function OrganizingCommittee() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-      <div>
+        </div> */}
+      {/* <div>
         <h2 className="title">Extended Support Committee</h2>
         <div className="organizing-committee-wrapper">
           <div className="oc-swiper">
@@ -68,7 +68,7 @@ export default function OrganizingCommittee() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }
