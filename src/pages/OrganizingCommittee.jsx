@@ -13,7 +13,11 @@ export default function OrganizingCommittee() {
   const keys = Object.keys(allOrganizingcommittees);
   return (
     <Wrapper>
-      <h1 className="title">Organizing Committee</h1>
+      <h1 className="title">
+        OPJU International Technology Conference (OTCON 3.0) <br /> on Smart
+        Computing for Innovation and Advancement in Industry 4.0 <br />
+        (7 - 9 February 2024) <br /> OP Jindal University, Raigarh, India
+      </h1>
       {allOrganizingcommittees.map(({ heading, members }, i) => (
         <div key={i} className="oc-card">
           <h2 className="heading">{heading}</h2>
