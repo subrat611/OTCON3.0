@@ -1,5 +1,10 @@
 import Wrapper from "../Layouts/Wrapper";
-import { organizingCommittees, allOrganizingcommittees } from "../constants";
+import {
+  organizingCommittees,
+  allOrganizingcommittees,
+  tpcMembers,
+  extendedSupportMembers,
+} from "../constants";
 
 import "./styles/page.style.css";
 import "./styles/organizingcommittee.scss";
@@ -34,6 +39,36 @@ export default function OrganizingCommittee() {
           </div>
         </div>
       ))}
+      <div>
+        <h2 className="title">TPC Members</h2>
+        <div className="organizing-committee-wrapper">
+          <div className="oc-swiper">
+            {tpcMembers.map((item, idx) => (
+              <div className="oc-swiper-slide-card" key={idx}>
+                <div className="oc-card-content">
+                  <p className="oc-card-no">{idx + 1}</p>
+                  <p className="oc-card-name">{item}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 className="title">Extended Support Committee</h2>
+        <div className="organizing-committee-wrapper">
+          <div className="oc-swiper">
+            {extendedSupportMembers.map((item, idx) => (
+              <div className="oc-swiper-slide-card" key={idx}>
+                <div className="oc-card-content">
+                  <p className="oc-card-no">{idx + 1}</p>
+                  <p className="oc-card-name">{item}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </Wrapper>
   );
 }
