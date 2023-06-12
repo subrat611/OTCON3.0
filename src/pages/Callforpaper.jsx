@@ -34,7 +34,7 @@ export default function Callforpaper() {
             <p className="step-title">Step 2</p>
             <p className="step-details">
               (Under Screening) Initial screening review will be done by the
-              Technical Program Committee of OTCON 2.0. Initial screening
+              Technical Program Committee of OTCON 3.0. Initial screening
               includes relevance to the conference topic, plagiarism***,
               organization of the paper, quality of
               figures/diagrams/illustrations/equations and technical novelty,
@@ -104,15 +104,15 @@ export default function Callforpaper() {
             </li>
             <li>
               Paper ID will be provided to all the received papers within ONE
-              working day from conference@opju.ac.in. Authors are requested to
-              contact the TPC through conference@opju.ac.in if the paper ID has
-              not been received within the time frame.
+              working day from otcon@opju.ac.in. Authors are requested to
+              contact the TPC through otcon@opju.ac.in if the paper ID has not
+              been received within the time frame.
             </li>
             <li>
-              TPC of OTCON 2.0 will check for possible plagiarism TWICE, first
+              TPC of OTCON 3.0 will check for possible plagiarism TWICE, first
               after receiving the paper and then at the stage of acceptance.
-              Though OTCON 2.0 will carefully check for plagiarism, there are
-              some possibilities for wrong plagiarism results, hence OTCON 2.0
+              Though OTCON 3.0 will carefully check for plagiarism, there are
+              some possibilities for wrong plagiarism results, hence OTCON 3.0
               encourages the authors to take sole responsibility for plagiarism
               when they are ready to submit their papers.
             </li>
@@ -120,7 +120,7 @@ export default function Callforpaper() {
           <div className="callfor-paper-badge">
             <strong>For further details please contact</strong>
             <br />
-            The Organizing Chair, OTCON 2.0,
+            The Organizing Chair, OTCON 3.0,
             <br />
             OP Jindal Institute of Technology, Raigarh, Chhattisgarh, India.
             <br />
@@ -129,12 +129,13 @@ export default function Callforpaper() {
         </div>
         <div className="callfor-paper-right-content">
           <h1>
-            OPJU INTERNATIONAL TECHNOLOGY CONFERENCE On Emerging Technologies
-            for Sustainable Development (8-10 Feb, 2023)
+            OPJU International Technology Conference (OTCON 3.0) On Smart
+            Computing For Innovation And Advancement In Industry 4.0. <br />{" "}
+            (7-9 Feb, 2024)
           </h1>
           <br />
           <p>
-            OTCON 2.0 invites full-length original research contributions from
+            OTCON 3.0 invites full-length original research contributions from
             researchers/professionals from industries, R&D organizations,
             academic institutions, and government departments from across the
             world. Full-length original research contributions and review
@@ -174,7 +175,7 @@ export default function Callforpaper() {
             within the due date. The deadlines for submission of the manuscript,
             acceptance notification, camera-ready paper submission, and
             registration will be notified on the conference website. Any query
-            regarding submission may be addressed to
+            regarding submission may be addressed to{" "}
             <b>
               otcon@opju.ac.in. Accepted and presented papers will be submitted
               for inclusion into IEEE Xplore subject to meeting IEEE Xplore's
