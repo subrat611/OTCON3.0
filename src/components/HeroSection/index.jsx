@@ -14,7 +14,7 @@ export default function HeroSection() {
   });
 
   useEffect(() => {
-    const countDownTimer = new Date("Feb 7, 2024").getTime();
+    const countDownTimer = new Date("June 5, 2024").getTime();
 
     const x = setInterval(() => {
       const currentTime = new Date().getTime();
@@ -65,7 +65,7 @@ export default function HeroSection() {
         </h1>
         <p className="hero-title-two">
           OPJU International Technology Conference (OTCON 3.0) <br /> on Smart
-          Computing for Innovation and Advancement in Industry 4.0. (7-9 Feb,
+          Computing for Innovation and Advancement in Industry 4.0. (5-7 June,
           2024)
         </p>
         <p className="hero-title-three">

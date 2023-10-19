@@ -131,7 +131,7 @@ export default function Callforpaper() {
           <h1>
             OPJU International Technology Conference (OTCON 3.0) On Smart
             Computing For Innovation And Advancement In Industry 4.0. <br />{" "}
-            (7-9 Feb, 2024)
+            (5-7 June, 2024)
           </h1>
           <br />
           <p>

@@ -42,7 +42,7 @@ export default function ConfTrackSection() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} color="yellow.200">
-                30 November 2023
+                29 February 2024
               </AccordionPanel>
             </AccordionItem>
 
@@ -56,7 +56,7 @@ export default function ConfTrackSection() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} color="yellow.200">
-                31 December 2023
+                15 March 2024
               </AccordionPanel>
             </AccordionItem>
 
@@ -70,7 +70,7 @@ export default function ConfTrackSection() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} color="yellow.200">
-                10th January 2024
+                10 April 2024
               </AccordionPanel>
             </AccordionItem>
 

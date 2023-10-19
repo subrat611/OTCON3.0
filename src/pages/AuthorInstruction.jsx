@@ -139,7 +139,7 @@ export default function AuthorInstruction() {
         <p>
           Instructions for submitting your camera ready manuscript are given in
           the manuscripts decision notification letter.{" "}
-          <b>Final paper submissions are due no later than Nov 30, 2023</b>. Any
+          <b>Final paper submissions are due no later than Feb 29, 2024</b>. Any
           paper submitted after this date runs the risk of not being included in
           the proceedings. The paper must be re-submitted even if the reviewers
           indicated that no changes are required. All accepted papers will be
