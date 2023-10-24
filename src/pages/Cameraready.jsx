@@ -28,10 +28,7 @@ export default function Cameraready() {
             <br /> A soft-copy of the full-length manuscripts in IEEE
             double-column format should be submitted electronically via Easy
             Chair through this{" "}
-            <a
-              href="https://easychair.org/account/signin?l=Yiji0MD0xxsWNRpo6y0oZt"
-              target="_blank"
-            >
+            <a href="#" target="_blank">
               Link
             </a>
           </p>

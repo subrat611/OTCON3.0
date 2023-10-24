@@ -159,12 +159,9 @@ export default function Callforpaper() {
           <br />
           <p>
             A soft-copy of the full-length manuscripts in IEEE double-column
-            format should be submitted electronically via Easy Chair through
+            format should be submitted electronically via Microsoft CMT through
             this{" "}
-            <a
-              href="https://easychair.org/account/signin?l=RF8UueF0ecaG69pZtUypo2"
-              target="_blank"
-            >
+            <a href="#" target="_blank">
               Link
             </a>
             . All the submitted manuscripts will be sent for peer review and the

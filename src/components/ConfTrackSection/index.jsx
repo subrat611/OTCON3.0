@@ -84,10 +84,7 @@ export default function ConfTrackSection() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <a
-                  href="https://easychair.org/conferences/?conf=otcon2022"
-                  target="_blank"
-                >
+                <a href="#" target="_blank">
                   Submit Paper »
                 </a>
               </AccordionPanel>
