@@ -26,9 +26,12 @@ export default function Cameraready() {
               here.
             </a>
             <br /> A soft-copy of the full-length manuscripts in IEEE
-            double-column format should be submitted electronically via Easy
-            Chair through this{" "}
-            <a href="#" target="_blank">
+            double-column format should be submitted electronically via
+            Microsoft CMT through this{" "}
+            <a
+              href="https://cmt3.research.microsoft.com/OTCON2024/Submission/Index"
+              target="_blank"
+            >
               Link
             </a>
           </p>

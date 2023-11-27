@@ -84,7 +84,10 @@ export default function ConfTrackSection() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <a href="#" target="_blank">
+                <a
+                  href="https://cmt3.research.microsoft.com/OTCON2024/Submission/Index"
+                  target="_blank"
+                >
                   Submit Paper »
                 </a>
               </AccordionPanel>
