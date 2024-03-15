@@ -416,7 +416,7 @@ Dr. Stanislav Goll, Ryazan State Radio Engineering University, Russia
 Dr. Mohammad Israr, Maryam Abacha, American University of Nigeria, Nigeria`;
 
 export const technicalProgramCommittees = `Ms. Shreya Gupta, Apple Inc.
-Dr. Ravi Tomar, Persistant 
+Dr. Ravi Tomar, Persistant
 Dr. Gulistan Raja, UET Taxila
 Dr. Nitish Kumar Ojha, University Of Stirling, UK-UAE
 Dr. Rajkumar Singh Rathore, Cardiff Metropolitan University, Cardiff, United Kingdom
@@ -757,6 +757,7 @@ export const allOrganizingcommittees = [
 
 export const tpcMembers = [
   "Ms. Shreya Gupta, Apple Inc., USA",
+  "Venkateswarlu Chennareddy, Apple USA",
   "Dr. Ravi Tomar, Persistant",
   "Dr. Gulistan Raja, UET Taxila",
   "Dr. Nitish Kumar Ojha, University Of Stirling, UK-UAE",
