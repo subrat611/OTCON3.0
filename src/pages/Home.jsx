@@ -109,7 +109,7 @@ export default function Home() {
             <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/O.P._Jindal_University_logo.png" />
           </div>
           <div className="sponsor">
-            <img src="https://www.opjuieeeotc.in/_nuxt/img/cgcost.b268db2.png" />
+            <img src="./cgcost.png" />
           </div>
         </div>
       </ConfSponsors>
@@ -118,7 +118,7 @@ export default function Home() {
         <h2 className="title">Technical Sponsor</h2>
         <div className="sponsors-container">
           <div className="sponsor iee-logo">
-            <img src="https://www.opjuieeeotc.in/_nuxt/img/ieeemp.af77a19.jpg" />
+            <img src="./ieeemp.jpg" />
           </div>
         </div>
       </ConfSponsors>
