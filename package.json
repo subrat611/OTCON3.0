@@ -2,6 +2,7 @@
   "name": "otcon-3",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://www.opjuieeeotc.in",
   "type": "module",
   "scripts": {
     "dev": "vite",
