@@ -123,6 +123,10 @@ export default function Home() {
         </div>
       </ConfSponsors>
 
+      <div className="conf-sponsor-wrapper">
+        <img src="src/assets/otcon_conf.jpeg" />
+      </div>
+
       <Footer />
     </>
   );

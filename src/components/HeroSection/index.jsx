@@ -57,6 +57,17 @@ export default function HeroSection() {
           <p className="scroll-item item3">Research Grant Awards</p>
         </div>
       </div>
+      <div className="scroll-box">
+        <div className="scroll-item-box">
+          <a
+            href="src/assets/OTCON3_conference_scchedule.pdf"
+            className="scroll-item item1 download-link-pdf"
+            download
+          >
+            Download OTCON 3.0 Function Schedule
+          </a>
+        </div>
+      </div>
       <div className="gradient-bg-top"></div>
       <div className="hero-content">
         <img src={`${iee}`} className="iee-logo" />
