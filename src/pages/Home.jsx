@@ -5,6 +5,8 @@ import ConfTrackSection from "../components/ConfTrackSection";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 
+import otconConf from "../assets/otcon_conf.jpeg";
+
 import "./styles/home.scss";
 
 export default function Home() {
@@ -124,7 +126,7 @@ export default function Home() {
       </ConfSponsors>
 
       <div className="conf-sponsor-wrapper">
-        <img src="src/assets/otcon_conf.jpeg" />
+        <img src={otconConf} />
       </div>
 
       <Footer />

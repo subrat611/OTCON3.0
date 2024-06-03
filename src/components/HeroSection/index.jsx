@@ -60,7 +60,7 @@ export default function HeroSection() {
       <div className="scroll-box">
         <div className="scroll-item-box">
           <a
-            href="src/assets/OTCON3_conference_scchedule.pdf"
+            href="./OTCON3_conference_scchedule.pdf"
             className="scroll-item item1 download-link-pdf"
             download
           >
